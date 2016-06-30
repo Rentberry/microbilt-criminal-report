@@ -1,0 +1,21 @@
+{
+    "name": "bukashk0zzz/microbilt-criminal-report",
+    "description": "Microbilt сriminal report WSDL to php classes.",
+    "keywords": ["microbilt", "wsdl", "сriminal"],
+    "homepage": "https://github.com/bukashk0zzz/MicrobiltCriminalReport",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Denis Golubovskiy",
+            "email": "bukashk0zzz@gmail.com",
+            "role": "Creator"
+        }
+    ],
+    "support": {
+        "email": "bukashk0zzz@gmail.com",
+        "issues": "https://github.com/bukashk0zzz/MicrobiltCriminalReport/issues"
+    },
+    "require": {
+        "php": ">=5.6.0"
+    }
+}

@@ -1,0 +1,311 @@
+<?php
+/**
+ * File for class MicrobiltCriminalReportStructFraudValidations_Type
+ * @package MicrobiltCriminalReport
+ * @subpackage Structs
+ * @author WsdlToPhp Team <contact@wsdltophp.com>
+ * @version 20150429-01
+ * @date 2016-06-30
+ */
+/**
+ * This class stands for MicrobiltCriminalReportStructFraudValidations_Type originally named FraudValidations_Type
+ * Meta informations extracted from the WSDL
+ * - from schema : {@link https://creditserver.microbilt.com/WebServices/Seisint/LNNationalComprehensiveCriminalReport.svc?xsd=xsd2}
+ * @package MicrobiltCriminalReport
+ * @subpackage Structs
+ * @author WsdlToPhp Team <contact@wsdltophp.com>
+ * @version 20150429-01
+ * @date 2016-06-30
+ */
+class MicrobiltCriminalReportStructFraudValidations_Type extends MicrobiltCriminalReportStructAggregate
+{
+    /**
+     * The NameValidation
+     * Meta informations extracted from the WSDL
+     * - maxOccurs : unbounded
+     * - minOccurs : 0
+     * @var MicrobiltCriminalReportStructMessage_Type
+     */
+    public $NameValidation;
+    /**
+     * The SSNValidation
+     * Meta informations extracted from the WSDL
+     * - maxOccurs : unbounded
+     * - minOccurs : 0
+     * @var MicrobiltCriminalReportStructMessage_Type
+     */
+    public $SSNValidation;
+    /**
+     * The DOBValidation
+     * Meta informations extracted from the WSDL
+     * - maxOccurs : unbounded
+     * - minOccurs : 0
+     * @var MicrobiltCriminalReportStructMessage_Type
+     */
+    public $DOBValidation;
+    /**
+     * The DLValidation
+     * Meta informations extracted from the WSDL
+     * - maxOccurs : unbounded
+     * - minOccurs : 0
+     * @var MicrobiltCriminalReportStructMessage_Type
+     */
+    public $DLValidation;
+    /**
+     * The DeceasedValidation
+     * Meta informations extracted from the WSDL
+     * - maxOccurs : unbounded
+     * - minOccurs : 0
+     * @var MicrobiltCriminalReportStructMessage_Type
+     */
+    public $DeceasedValidation;
+    /**
+     * The AddressValidation
+     * Meta informations extracted from the WSDL
+     * - maxOccurs : unbounded
+     * - minOccurs : 0
+     * @var MicrobiltCriminalReportStructMessage_Type
+     */
+    public $AddressValidation;
+    /**
+     * The PhoneValidation
+     * Meta informations extracted from the WSDL
+     * - maxOccurs : unbounded
+     * - minOccurs : 0
+     * @var MicrobiltCriminalReportStructMessage_Type
+     */
+    public $PhoneValidation;
+    /**
+     * The ComboValidation
+     * Meta informations extracted from the WSDL
+     * - maxOccurs : unbounded
+     * - minOccurs : 0
+     * @var MicrobiltCriminalReportStructMessage_Type
+     */
+    public $ComboValidation;
+    /**
+     * The BusinessValidation
+     * Meta informations extracted from the WSDL
+     * - maxOccurs : unbounded
+     * - minOccurs : 0
+     * @var MicrobiltCriminalReportStructMessage_Type
+     */
+    public $BusinessValidation;
+    /**
+     * The OtherValidation
+     * Meta informations extracted from the WSDL
+     * - maxOccurs : unbounded
+     * - minOccurs : 0
+     * @var MicrobiltCriminalReportStructMessage_Type
+     */
+    public $OtherValidation;
+    /**
+     * Constructor method for FraudValidations_Type
+     * @see parent::__construct()
+     * @param MicrobiltCriminalReportStructMessage_Type $_nameValidation
+     * @param MicrobiltCriminalReportStructMessage_Type $_sSNValidation
+     * @param MicrobiltCriminalReportStructMessage_Type $_dOBValidation
+     * @param MicrobiltCriminalReportStructMessage_Type $_dLValidation
+     * @param MicrobiltCriminalReportStructMessage_Type $_deceasedValidation
+     * @param MicrobiltCriminalReportStructMessage_Type $_addressValidation
+     * @param MicrobiltCriminalReportStructMessage_Type $_phoneValidation
+     * @param MicrobiltCriminalReportStructMessage_Type $_comboValidation
+     * @param MicrobiltCriminalReportStructMessage_Type $_businessValidation
+     * @param MicrobiltCriminalReportStructMessage_Type $_otherValidation
+     * @return MicrobiltCriminalReportStructFraudValidations_Type
+     */
+    public function __construct($_nameValidation = NULL,$_sSNValidation = NULL,$_dOBValidation = NULL,$_dLValidation = NULL,$_deceasedValidation = NULL,$_addressValidation = NULL,$_phoneValidation = NULL,$_comboValidation = NULL,$_businessValidation = NULL,$_otherValidation = NULL)
+    {
+        MicrobiltCriminalReportWsdlClass::__construct(array('NameValidation'=>$_nameValidation,'SSNValidation'=>$_sSNValidation,'DOBValidation'=>$_dOBValidation,'DLValidation'=>$_dLValidation,'DeceasedValidation'=>$_deceasedValidation,'AddressValidation'=>$_addressValidation,'PhoneValidation'=>$_phoneValidation,'ComboValidation'=>$_comboValidation,'BusinessValidation'=>$_businessValidation,'OtherValidation'=>$_otherValidation),false);
+    }
+    /**
+     * Get NameValidation value
+     * @return MicrobiltCriminalReportStructMessage_Type|null
+     */
+    public function getNameValidation()
+    {
+        return $this->NameValidation;
+    }
+    /**
+     * Set NameValidation value
+     * @param MicrobiltCriminalReportStructMessage_Type $_nameValidation the NameValidation
+     * @return MicrobiltCriminalReportStructMessage_Type
+     */
+    public function setNameValidation($_nameValidation)
+    {
+        return ($this->NameValidation = $_nameValidation);
+    }
+    /**
+     * Get SSNValidation value
+     * @return MicrobiltCriminalReportStructMessage_Type|null
+     */
+    public function getSSNValidation()
+    {
+        return $this->SSNValidation;
+    }
+    /**
+     * Set SSNValidation value
+     * @param MicrobiltCriminalReportStructMessage_Type $_sSNValidation the SSNValidation
+     * @return MicrobiltCriminalReportStructMessage_Type
+     */
+    public function setSSNValidation($_sSNValidation)
+    {
+        return ($this->SSNValidation = $_sSNValidation);
+    }
+    /**
+     * Get DOBValidation value
+     * @return MicrobiltCriminalReportStructMessage_Type|null
+     */
+    public function getDOBValidation()
+    {
+        return $this->DOBValidation;
+    }
+    /**
+     * Set DOBValidation value
+     * @param MicrobiltCriminalReportStructMessage_Type $_dOBValidation the DOBValidation
+     * @return MicrobiltCriminalReportStructMessage_Type
+     */
+    public function setDOBValidation($_dOBValidation)
+    {
+        return ($this->DOBValidation = $_dOBValidation);
+    }
+    /**
+     * Get DLValidation value
+     * @return MicrobiltCriminalReportStructMessage_Type|null
+     */
+    public function getDLValidation()
+    {
+        return $this->DLValidation;
+    }
+    /**
+     * Set DLValidation value
+     * @param MicrobiltCriminalReportStructMessage_Type $_dLValidation the DLValidation
+     * @return MicrobiltCriminalReportStructMessage_Type
+     */
+    public function setDLValidation($_dLValidation)
+    {
+        return ($this->DLValidation = $_dLValidation);
+    }
+    /**
+     * Get DeceasedValidation value
+     * @return MicrobiltCriminalReportStructMessage_Type|null
+     */
+    public function getDeceasedValidation()
+    {
+        return $this->DeceasedValidation;
+    }
+    /**
+     * Set DeceasedValidation value
+     * @param MicrobiltCriminalReportStructMessage_Type $_deceasedValidation the DeceasedValidation
+     * @return MicrobiltCriminalReportStructMessage_Type
+     */
+    public function setDeceasedValidation($_deceasedValidation)
+    {
+        return ($this->DeceasedValidation = $_deceasedValidation);
+    }
+    /**
+     * Get AddressValidation value
+     * @return MicrobiltCriminalReportStructMessage_Type|null
+     */
+    public function getAddressValidation()
+    {
+        return $this->AddressValidation;
+    }
+    /**
+     * Set AddressValidation value
+     * @param MicrobiltCriminalReportStructMessage_Type $_addressValidation the AddressValidation
+     * @return MicrobiltCriminalReportStructMessage_Type
+     */
+    public function setAddressValidation($_addressValidation)
+    {
+        return ($this->AddressValidation = $_addressValidation);
+    }
+    /**
+     * Get PhoneValidation value
+     * @return MicrobiltCriminalReportStructMessage_Type|null
+     */
+    public function getPhoneValidation()
+    {
+        return $this->PhoneValidation;
+    }
+    /**
+     * Set PhoneValidation value
+     * @param MicrobiltCriminalReportStructMessage_Type $_phoneValidation the PhoneValidation
+     * @return MicrobiltCriminalReportStructMessage_Type
+     */
+    public function setPhoneValidation($_phoneValidation)
+    {
+        return ($this->PhoneValidation = $_phoneValidation);
+    }
+    /**
+     * Get ComboValidation value
+     * @return MicrobiltCriminalReportStructMessage_Type|null
+     */
+    public function getComboValidation()
+    {
+        return $this->ComboValidation;
+    }
+    /**
+     * Set ComboValidation value
+     * @param MicrobiltCriminalReportStructMessage_Type $_comboValidation the ComboValidation
+     * @return MicrobiltCriminalReportStructMessage_Type
+     */
+    public function setComboValidation($_comboValidation)
+    {
+        return ($this->ComboValidation = $_comboValidation);
+    }
+    /**
+     * Get BusinessValidation value
+     * @return MicrobiltCriminalReportStructMessage_Type|null
+     */
+    public function getBusinessValidation()
+    {
+        return $this->BusinessValidation;
+    }
+    /**
+     * Set BusinessValidation value
+     * @param MicrobiltCriminalReportStructMessage_Type $_businessValidation the BusinessValidation
+     * @return MicrobiltCriminalReportStructMessage_Type
+     */
+    public function setBusinessValidation($_businessValidation)
+    {
+        return ($this->BusinessValidation = $_businessValidation);
+    }
+    /**
+     * Get OtherValidation value
+     * @return MicrobiltCriminalReportStructMessage_Type|null
+     */
+    public function getOtherValidation()
+    {
+        return $this->OtherValidation;
+    }
+    /**
+     * Set OtherValidation value
+     * @param MicrobiltCriminalReportStructMessage_Type $_otherValidation the OtherValidation
+     * @return MicrobiltCriminalReportStructMessage_Type
+     */
+    public function setOtherValidation($_otherValidation)
+    {
+        return ($this->OtherValidation = $_otherValidation);
+    }
+    /**
+     * Method called when an object has been exported with var_export() functions
+     * It allows to return an object instantiated with the values
+     * @see MicrobiltCriminalReportWsdlClass::__set_state()
+     * @uses MicrobiltCriminalReportWsdlClass::__set_state()
+     * @param array $_array the exported values
+     * @return MicrobiltCriminalReportStructFraudValidations_Type
+     */
+    public static function __set_state(array $_array,$_className = __CLASS__)
+    {
+        return parent::__set_state($_array,$_className);
+    }
+    /**
+     * Method returning the class name
+     * @return string __CLASS__
+     */
+    public function __toString()
+    {
+        return __CLASS__;
+    }
+}
