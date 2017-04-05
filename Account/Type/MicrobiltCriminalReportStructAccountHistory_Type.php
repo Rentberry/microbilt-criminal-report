@@ -24,7 +24,7 @@ class MicrobiltCriminalReportStructAccountHistory_Type extends MicrobiltCriminal
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $DtEffective;
     /**
@@ -86,7 +86,7 @@ class MicrobiltCriminalReportStructAccountHistory_Type extends MicrobiltCriminal
     /**
      * Constructor method for AccountHistory_Type
      * @see parent::__construct()
-     * @param date $_dtEffective
+     * @param string $_dtEffective
      * @param MicrobiltCriminalReportStructCompAmt_Type $_balanceAmt
      * @param MicrobiltCriminalReportStructCompAmt_Type $_highCreditAmt
      * @param MicrobiltCriminalReportStructCurrencyAmount $_creditLimitAmt
@@ -102,7 +102,7 @@ class MicrobiltCriminalReportStructAccountHistory_Type extends MicrobiltCriminal
     }
     /**
      * Get DtEffective value
-     * @return date|null
+     * @return string|null
      */
     public function getDtEffective()
     {
@@ -110,8 +110,8 @@ class MicrobiltCriminalReportStructAccountHistory_Type extends MicrobiltCriminal
     }
     /**
      * Set DtEffective value
-     * @param date $_dtEffective the DtEffective
-     * @return date
+     * @param string $_dtEffective the DtEffective
+     * @return string
      */
     public function setDtEffective($_dtEffective)
     {

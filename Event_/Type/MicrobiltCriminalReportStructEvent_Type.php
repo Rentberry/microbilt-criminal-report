@@ -24,7 +24,7 @@ class MicrobiltCriminalReportStructEvent_Type extends MicrobiltCriminalReportStr
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $EventDt;
     /**
@@ -70,7 +70,7 @@ class MicrobiltCriminalReportStructEvent_Type extends MicrobiltCriminalReportStr
     /**
      * Constructor method for Event_Type
      * @see parent::__construct()
-     * @param date $_eventDt
+     * @param string $_eventDt
      * @param string $_eventType
      * @param string $_filingType
      * @param string $_documentNumber
@@ -84,7 +84,7 @@ class MicrobiltCriminalReportStructEvent_Type extends MicrobiltCriminalReportStr
     }
     /**
      * Get EventDt value
-     * @return date|null
+     * @return string|null
      */
     public function getEventDt()
     {
@@ -92,8 +92,8 @@ class MicrobiltCriminalReportStructEvent_Type extends MicrobiltCriminalReportStr
     }
     /**
      * Set EventDt value
-     * @param date $_eventDt the EventDt
-     * @return date
+     * @param string $_eventDt the EventDt
+     * @return string
      */
     public function setEventDt($_eventDt)
     {

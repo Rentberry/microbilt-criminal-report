@@ -112,7 +112,7 @@ class MicrobiltCriminalReportStructCourtInfo_Type extends MicrobiltCriminalRepor
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $DispositionDt;
     /**
@@ -201,7 +201,7 @@ class MicrobiltCriminalReportStructCourtInfo_Type extends MicrobiltCriminalRepor
      * @param string $_courtName
      * @param string $_courtCaseId
      * @param MicrobiltCriminalReportStructCurrencyAmount $_courtCostsAmt
-     * @param date $_dispositionDt
+     * @param string $_dispositionDt
      * @param string $_dispositionType
      * @param string $_fine
      * @param MicrobiltCriminalReportStructCodeDescription_Type $_riskLevel
@@ -406,7 +406,7 @@ class MicrobiltCriminalReportStructCourtInfo_Type extends MicrobiltCriminalRepor
     }
     /**
      * Get DispositionDt value
-     * @return date|null
+     * @return string|null
      */
     public function getDispositionDt()
     {
@@ -414,8 +414,8 @@ class MicrobiltCriminalReportStructCourtInfo_Type extends MicrobiltCriminalRepor
     }
     /**
      * Set DispositionDt value
-     * @param date $_dispositionDt the DispositionDt
-     * @return date
+     * @param string $_dispositionDt the DispositionDt
+     * @return string
      */
     public function setDispositionDt($_dispositionDt)
     {

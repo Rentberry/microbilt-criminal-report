@@ -32,7 +32,7 @@ class MicrobiltCriminalReportStructCommercialPmtTotals_Type extends MicrobiltCri
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $TotalTrades;
     /**
@@ -63,7 +63,7 @@ class MicrobiltCriminalReportStructCommercialPmtTotals_Type extends MicrobiltCri
      * Constructor method for CommercialPmtTotals_Type
      * @see parent::__construct()
      * @param string $_msgClass
-     * @param long $_totalTrades
+     * @param int $_totalTrades
      * @param string $_businessDBT
      * @param MicrobiltCriminalReportStructCommercialAmounts_Type $_commercialAmounts
      * @param MicrobiltCriminalReportStructMessage_Type $_message
@@ -92,7 +92,7 @@ class MicrobiltCriminalReportStructCommercialPmtTotals_Type extends MicrobiltCri
     }
     /**
      * Get TotalTrades value
-     * @return long|null
+     * @return int|null
      */
     public function getTotalTrades()
     {
@@ -100,8 +100,8 @@ class MicrobiltCriminalReportStructCommercialPmtTotals_Type extends MicrobiltCri
     }
     /**
      * Set TotalTrades value
-     * @param long $_totalTrades the TotalTrades
-     * @return long
+     * @param int $_totalTrades the TotalTrades
+     * @return int
      */
     public function setTotalTrades($_totalTrades)
     {

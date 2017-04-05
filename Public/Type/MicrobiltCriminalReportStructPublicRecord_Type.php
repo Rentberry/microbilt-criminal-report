@@ -128,7 +128,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $FilingDt;
     /**
@@ -144,7 +144,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $DispositionDt;
     /**
@@ -176,7 +176,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $MaturityDt;
     /**
@@ -184,7 +184,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $PaidDt;
     /**
@@ -200,7 +200,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ReportedDt;
     /**
@@ -208,7 +208,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $SettledDt;
     /**
@@ -216,7 +216,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $VerifiedDt;
     /**
@@ -224,7 +224,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $LastActivityDt;
     /**
@@ -232,7 +232,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $StatusDt;
     /**
@@ -264,7 +264,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $BalanceDt;
     /**
@@ -296,7 +296,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $DismissedDt;
     /**
@@ -304,7 +304,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $DischargedDt;
     /**
@@ -352,7 +352,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $OrigDtFiled;
     /**
@@ -360,7 +360,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ClosedDt;
     /**
@@ -368,7 +368,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ReOpenedDt;
     /**
@@ -376,7 +376,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ConvertedDt;
     /**
@@ -408,7 +408,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ClaimsDeadlineDt;
     /**
@@ -416,7 +416,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ComplaintDeadlineDt;
     /**
@@ -424,7 +424,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $TransferredDt;
     /**
@@ -432,7 +432,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $WithdrawnDt;
     /**
@@ -440,7 +440,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ClaimDt;
     /**
@@ -448,7 +448,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ObjectionDt;
     /**
@@ -544,7 +544,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ReleaseDt;
     /**
@@ -560,7 +560,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var decimal
+     * @var float
      */
     public $BankrRepmtPercent;
     /**
@@ -568,7 +568,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var decimal
+     * @var float
      */
     public $BankrAdjPercent;
     /**
@@ -592,7 +592,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $SatisfiedDt;
     /**
@@ -627,47 +627,47 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
      * @param string $_courtNum
      * @param MicrobiltCriminalReportEnumBoolean $_disputeInd
      * @param MicrobiltCriminalReportEnumBoolean $_derogInd
-     * @param date $_filingDt
+     * @param string $_filingDt
      * @param string $_defendantName
-     * @param date $_dispositionDt
+     * @param string $_dispositionDt
      * @param string $_dispositionType
      * @param MicrobiltCriminalReportStructCurrencyAmount $_legalObligationAmt
      * @param MicrobiltCriminalReportEnumBoolean $_manualUpdInd
-     * @param date $_maturityDt
-     * @param date $_paidDt
+     * @param string $_maturityDt
+     * @param string $_paidDt
      * @param string $_pmtFreq
-     * @param date $_reportedDt
-     * @param date $_settledDt
-     * @param date $_verifiedDt
-     * @param date $_lastActivityDt
-     * @param date $_statusDt
+     * @param string $_reportedDt
+     * @param string $_settledDt
+     * @param string $_verifiedDt
+     * @param string $_lastActivityDt
+     * @param string $_statusDt
      * @param string $_plaintiff
      * @param MicrobiltCriminalReportEnumBoolean $_voluntaryInd
      * @param string $_pRStatus
-     * @param date $_balanceDt
+     * @param string $_balanceDt
      * @param MicrobiltCriminalReportStructCurrencyAmount $_claimAmt
      * @param MicrobiltCriminalReportStructCurrencyAmount $_rentPmtAmt
      * @param string $_judgeTrustee
-     * @param date $_dismissedDt
-     * @param date $_dischargedDt
+     * @param string $_dismissedDt
+     * @param string $_dischargedDt
      * @param MicrobiltCriminalReportStructCourtInfo_Type $_courtInfo
      * @param MicrobiltCriminalReportStructMessage_Type $_message
      * @param string $_filingType
      * @param string $_filerType
      * @param string $_filingLocation
-     * @param date $_origDtFiled
-     * @param date $_closedDt
-     * @param date $_reOpenedDt
-     * @param date $_convertedDt
+     * @param string $_origDtFiled
+     * @param string $_closedDt
+     * @param string $_reOpenedDt
+     * @param string $_convertedDt
      * @param string $_chapter
      * @param string $_origChapter
      * @param string $_filingStatus
-     * @param date $_claimsDeadlineDt
-     * @param date $_complaintDeadlineDt
-     * @param date $_transferredDt
-     * @param date $_withdrawnDt
-     * @param date $_claimDt
-     * @param date $_objectionDt
+     * @param string $_claimsDeadlineDt
+     * @param string $_complaintDeadlineDt
+     * @param string $_transferredDt
+     * @param string $_withdrawnDt
+     * @param string $_claimDt
+     * @param string $_objectionDt
      * @param string $_entity
      * @param string $_noticeType
      * @param string $_division
@@ -679,13 +679,13 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
      * @param string $_sch341DtTime
      * @param MicrobiltCriminalReportStructCurrencyAmount $_unpaidBalanceAmt
      * @param MicrobiltCriminalReportStructCurrencyAmount $_originalAmt
-     * @param date $_releaseDt
+     * @param string $_releaseDt
      * @param MicrobiltCriminalReportEnumBoolean $_assetsAvailForUnsecuredInd
-     * @param decimal $_bankrRepmtPercent
-     * @param decimal $_bankrAdjPercent
+     * @param float $_bankrRepmtPercent
+     * @param float $_bankrAdjPercent
      * @param MicrobiltCriminalReportStructConsumerStatement_Type $_consumerStatement
      * @param string $_comments
-     * @param date $_satisfiedDt
+     * @param string $_satisfiedDt
      * @param string $_classification
      * @param MicrobiltCriminalReportStructCodeDescription_Type $_actionCode
      * @return MicrobiltCriminalReportStructPublicRecord_Type
@@ -932,7 +932,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Get FilingDt value
-     * @return date|null
+     * @return string|null
      */
     public function getFilingDt()
     {
@@ -940,8 +940,8 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Set FilingDt value
-     * @param date $_filingDt the FilingDt
-     * @return date
+     * @param string $_filingDt the FilingDt
+     * @return string
      */
     public function setFilingDt($_filingDt)
     {
@@ -966,7 +966,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Get DispositionDt value
-     * @return date|null
+     * @return string|null
      */
     public function getDispositionDt()
     {
@@ -974,8 +974,8 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Set DispositionDt value
-     * @param date $_dispositionDt the DispositionDt
-     * @return date
+     * @param string $_dispositionDt the DispositionDt
+     * @return string
      */
     public function setDispositionDt($_dispositionDt)
     {
@@ -1039,7 +1039,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Get MaturityDt value
-     * @return date|null
+     * @return string|null
      */
     public function getMaturityDt()
     {
@@ -1047,8 +1047,8 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Set MaturityDt value
-     * @param date $_maturityDt the MaturityDt
-     * @return date
+     * @param string $_maturityDt the MaturityDt
+     * @return string
      */
     public function setMaturityDt($_maturityDt)
     {
@@ -1056,7 +1056,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Get PaidDt value
-     * @return date|null
+     * @return string|null
      */
     public function getPaidDt()
     {
@@ -1064,8 +1064,8 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Set PaidDt value
-     * @param date $_paidDt the PaidDt
-     * @return date
+     * @param string $_paidDt the PaidDt
+     * @return string
      */
     public function setPaidDt($_paidDt)
     {
@@ -1090,7 +1090,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Get ReportedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getReportedDt()
     {
@@ -1098,8 +1098,8 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Set ReportedDt value
-     * @param date $_reportedDt the ReportedDt
-     * @return date
+     * @param string $_reportedDt the ReportedDt
+     * @return string
      */
     public function setReportedDt($_reportedDt)
     {
@@ -1107,7 +1107,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Get SettledDt value
-     * @return date|null
+     * @return string|null
      */
     public function getSettledDt()
     {
@@ -1115,8 +1115,8 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Set SettledDt value
-     * @param date $_settledDt the SettledDt
-     * @return date
+     * @param string $_settledDt the SettledDt
+     * @return string
      */
     public function setSettledDt($_settledDt)
     {
@@ -1124,7 +1124,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Get VerifiedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getVerifiedDt()
     {
@@ -1132,8 +1132,8 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Set VerifiedDt value
-     * @param date $_verifiedDt the VerifiedDt
-     * @return date
+     * @param string $_verifiedDt the VerifiedDt
+     * @return string
      */
     public function setVerifiedDt($_verifiedDt)
     {
@@ -1141,7 +1141,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Get LastActivityDt value
-     * @return date|null
+     * @return string|null
      */
     public function getLastActivityDt()
     {
@@ -1149,8 +1149,8 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Set LastActivityDt value
-     * @param date $_lastActivityDt the LastActivityDt
-     * @return date
+     * @param string $_lastActivityDt the LastActivityDt
+     * @return string
      */
     public function setLastActivityDt($_lastActivityDt)
     {
@@ -1158,7 +1158,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Get StatusDt value
-     * @return date|null
+     * @return string|null
      */
     public function getStatusDt()
     {
@@ -1166,8 +1166,8 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Set StatusDt value
-     * @param date $_statusDt the StatusDt
-     * @return date
+     * @param string $_statusDt the StatusDt
+     * @return string
      */
     public function setStatusDt($_statusDt)
     {
@@ -1231,7 +1231,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Get BalanceDt value
-     * @return date|null
+     * @return string|null
      */
     public function getBalanceDt()
     {
@@ -1239,8 +1239,8 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Set BalanceDt value
-     * @param date $_balanceDt the BalanceDt
-     * @return date
+     * @param string $_balanceDt the BalanceDt
+     * @return string
      */
     public function setBalanceDt($_balanceDt)
     {
@@ -1299,7 +1299,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Get DismissedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getDismissedDt()
     {
@@ -1307,8 +1307,8 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Set DismissedDt value
-     * @param date $_dismissedDt the DismissedDt
-     * @return date
+     * @param string $_dismissedDt the DismissedDt
+     * @return string
      */
     public function setDismissedDt($_dismissedDt)
     {
@@ -1316,7 +1316,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Get DischargedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getDischargedDt()
     {
@@ -1324,8 +1324,8 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Set DischargedDt value
-     * @param date $_dischargedDt the DischargedDt
-     * @return date
+     * @param string $_dischargedDt the DischargedDt
+     * @return string
      */
     public function setDischargedDt($_dischargedDt)
     {
@@ -1418,7 +1418,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Get OrigDtFiled value
-     * @return date|null
+     * @return string|null
      */
     public function getOrigDtFiled()
     {
@@ -1426,8 +1426,8 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Set OrigDtFiled value
-     * @param date $_origDtFiled the OrigDtFiled
-     * @return date
+     * @param string $_origDtFiled the OrigDtFiled
+     * @return string
      */
     public function setOrigDtFiled($_origDtFiled)
     {
@@ -1435,7 +1435,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Get ClosedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getClosedDt()
     {
@@ -1443,8 +1443,8 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Set ClosedDt value
-     * @param date $_closedDt the ClosedDt
-     * @return date
+     * @param string $_closedDt the ClosedDt
+     * @return string
      */
     public function setClosedDt($_closedDt)
     {
@@ -1452,7 +1452,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Get ReOpenedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getReOpenedDt()
     {
@@ -1460,8 +1460,8 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Set ReOpenedDt value
-     * @param date $_reOpenedDt the ReOpenedDt
-     * @return date
+     * @param string $_reOpenedDt the ReOpenedDt
+     * @return string
      */
     public function setReOpenedDt($_reOpenedDt)
     {
@@ -1469,7 +1469,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Get ConvertedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getConvertedDt()
     {
@@ -1477,8 +1477,8 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Set ConvertedDt value
-     * @param date $_convertedDt the ConvertedDt
-     * @return date
+     * @param string $_convertedDt the ConvertedDt
+     * @return string
      */
     public function setConvertedDt($_convertedDt)
     {
@@ -1537,7 +1537,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Get ClaimsDeadlineDt value
-     * @return date|null
+     * @return string|null
      */
     public function getClaimsDeadlineDt()
     {
@@ -1545,8 +1545,8 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Set ClaimsDeadlineDt value
-     * @param date $_claimsDeadlineDt the ClaimsDeadlineDt
-     * @return date
+     * @param string $_claimsDeadlineDt the ClaimsDeadlineDt
+     * @return string
      */
     public function setClaimsDeadlineDt($_claimsDeadlineDt)
     {
@@ -1554,7 +1554,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Get ComplaintDeadlineDt value
-     * @return date|null
+     * @return string|null
      */
     public function getComplaintDeadlineDt()
     {
@@ -1562,8 +1562,8 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Set ComplaintDeadlineDt value
-     * @param date $_complaintDeadlineDt the ComplaintDeadlineDt
-     * @return date
+     * @param string $_complaintDeadlineDt the ComplaintDeadlineDt
+     * @return string
      */
     public function setComplaintDeadlineDt($_complaintDeadlineDt)
     {
@@ -1571,7 +1571,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Get TransferredDt value
-     * @return date|null
+     * @return string|null
      */
     public function getTransferredDt()
     {
@@ -1579,8 +1579,8 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Set TransferredDt value
-     * @param date $_transferredDt the TransferredDt
-     * @return date
+     * @param string $_transferredDt the TransferredDt
+     * @return string
      */
     public function setTransferredDt($_transferredDt)
     {
@@ -1588,7 +1588,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Get WithdrawnDt value
-     * @return date|null
+     * @return string|null
      */
     public function getWithdrawnDt()
     {
@@ -1596,8 +1596,8 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Set WithdrawnDt value
-     * @param date $_withdrawnDt the WithdrawnDt
-     * @return date
+     * @param string $_withdrawnDt the WithdrawnDt
+     * @return string
      */
     public function setWithdrawnDt($_withdrawnDt)
     {
@@ -1605,7 +1605,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Get ClaimDt value
-     * @return date|null
+     * @return string|null
      */
     public function getClaimDt()
     {
@@ -1613,8 +1613,8 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Set ClaimDt value
-     * @param date $_claimDt the ClaimDt
-     * @return date
+     * @param string $_claimDt the ClaimDt
+     * @return string
      */
     public function setClaimDt($_claimDt)
     {
@@ -1622,7 +1622,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Get ObjectionDt value
-     * @return date|null
+     * @return string|null
      */
     public function getObjectionDt()
     {
@@ -1630,8 +1630,8 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Set ObjectionDt value
-     * @param date $_objectionDt the ObjectionDt
-     * @return date
+     * @param string $_objectionDt the ObjectionDt
+     * @return string
      */
     public function setObjectionDt($_objectionDt)
     {
@@ -1826,7 +1826,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Get ReleaseDt value
-     * @return date|null
+     * @return string|null
      */
     public function getReleaseDt()
     {
@@ -1834,8 +1834,8 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Set ReleaseDt value
-     * @param date $_releaseDt the ReleaseDt
-     * @return date
+     * @param string $_releaseDt the ReleaseDt
+     * @return string
      */
     public function setReleaseDt($_releaseDt)
     {
@@ -1865,7 +1865,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Get BankrRepmtPercent value
-     * @return decimal|null
+     * @return float|null
      */
     public function getBankrRepmtPercent()
     {
@@ -1873,8 +1873,8 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Set BankrRepmtPercent value
-     * @param decimal $_bankrRepmtPercent the BankrRepmtPercent
-     * @return decimal
+     * @param float $_bankrRepmtPercent the BankrRepmtPercent
+     * @return float
      */
     public function setBankrRepmtPercent($_bankrRepmtPercent)
     {
@@ -1882,7 +1882,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Get BankrAdjPercent value
-     * @return decimal|null
+     * @return float|null
      */
     public function getBankrAdjPercent()
     {
@@ -1890,8 +1890,8 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Set BankrAdjPercent value
-     * @param decimal $_bankrAdjPercent the BankrAdjPercent
-     * @return decimal
+     * @param float $_bankrAdjPercent the BankrAdjPercent
+     * @return float
      */
     public function setBankrAdjPercent($_bankrAdjPercent)
     {
@@ -1933,7 +1933,7 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Get SatisfiedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getSatisfiedDt()
     {
@@ -1941,8 +1941,8 @@ class MicrobiltCriminalReportStructPublicRecord_Type extends MicrobiltCriminalRe
     }
     /**
      * Set SatisfiedDt value
-     * @param date $_satisfiedDt the SatisfiedDt
-     * @return date
+     * @param string $_satisfiedDt the SatisfiedDt
+     * @return string
      */
     public function setSatisfiedDt($_satisfiedDt)
     {

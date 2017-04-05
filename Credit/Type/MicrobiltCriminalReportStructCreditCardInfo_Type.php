@@ -24,7 +24,7 @@ class MicrobiltCriminalReportStructCreditCardInfo_Type extends MicrobiltCriminal
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 1
-     * @var date
+     * @var string
      */
     public $ExpirationDt;
     /**
@@ -54,7 +54,7 @@ class MicrobiltCriminalReportStructCreditCardInfo_Type extends MicrobiltCriminal
     /**
      * Constructor method for CreditCardInfo_Type
      * @see parent::__construct()
-     * @param date $_expirationDt
+     * @param string $_expirationDt
      * @param string $_creditCardNum
      * @param string $_securityDigits
      * @param MicrobiltCriminalReportStructPersonInfo_Type $_personInfo
@@ -66,7 +66,7 @@ class MicrobiltCriminalReportStructCreditCardInfo_Type extends MicrobiltCriminal
     }
     /**
      * Get ExpirationDt value
-     * @return date
+     * @return string
      */
     public function getExpirationDt()
     {
@@ -74,8 +74,8 @@ class MicrobiltCriminalReportStructCreditCardInfo_Type extends MicrobiltCriminal
     }
     /**
      * Set ExpirationDt value
-     * @param date $_expirationDt the ExpirationDt
-     * @return date
+     * @param string $_expirationDt the ExpirationDt
+     * @return string
      */
     public function setExpirationDt($_expirationDt)
     {

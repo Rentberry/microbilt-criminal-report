@@ -48,7 +48,7 @@ class MicrobiltCriminalReportStructSpouseInfo_Type extends MicrobiltCriminalRepo
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $BirthDt;
     /**
@@ -56,7 +56,7 @@ class MicrobiltCriminalReportStructSpouseInfo_Type extends MicrobiltCriminalRepo
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $DeathDt;
     /**
@@ -89,8 +89,8 @@ class MicrobiltCriminalReportStructSpouseInfo_Type extends MicrobiltCriminalRepo
      * @param MicrobiltCriminalReportStructPersonName_Type $_personName
      * @param MicrobiltCriminalReportStructContactInfo_Type $_contactInfo
      * @param MicrobiltCriminalReportStructTINInfo_Type $_tINInfo
-     * @param date $_birthDt
-     * @param date $_deathDt
+     * @param string $_birthDt
+     * @param string $_deathDt
      * @param MicrobiltCriminalReportStructDriversLicense_Type $_driversLicense
      * @param string $_mothersMaidenName
      * @param MicrobiltCriminalReportStructEmploymentHistory_Type $_employmentHistory
@@ -153,7 +153,7 @@ class MicrobiltCriminalReportStructSpouseInfo_Type extends MicrobiltCriminalRepo
     }
     /**
      * Get BirthDt value
-     * @return date|null
+     * @return string|null
      */
     public function getBirthDt()
     {
@@ -161,8 +161,8 @@ class MicrobiltCriminalReportStructSpouseInfo_Type extends MicrobiltCriminalRepo
     }
     /**
      * Set BirthDt value
-     * @param date $_birthDt the BirthDt
-     * @return date
+     * @param string $_birthDt the BirthDt
+     * @return string
      */
     public function setBirthDt($_birthDt)
     {
@@ -170,7 +170,7 @@ class MicrobiltCriminalReportStructSpouseInfo_Type extends MicrobiltCriminalRepo
     }
     /**
      * Get DeathDt value
-     * @return date|null
+     * @return string|null
      */
     public function getDeathDt()
     {
@@ -178,8 +178,8 @@ class MicrobiltCriminalReportStructSpouseInfo_Type extends MicrobiltCriminalRepo
     }
     /**
      * Set DeathDt value
-     * @param date $_deathDt the DeathDt
-     * @return date
+     * @param string $_deathDt the DeathDt
+     * @return string
      */
     public function setDeathDt($_deathDt)
     {

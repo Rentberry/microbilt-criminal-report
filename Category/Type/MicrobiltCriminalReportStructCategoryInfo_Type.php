@@ -32,7 +32,7 @@ class MicrobiltCriminalReportStructCategoryInfo_Type extends MicrobiltCriminalRe
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $CategoryIndicator;
     /**
@@ -40,7 +40,7 @@ class MicrobiltCriminalReportStructCategoryInfo_Type extends MicrobiltCriminalRe
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $CategoryDt;
     /**
@@ -55,8 +55,8 @@ class MicrobiltCriminalReportStructCategoryInfo_Type extends MicrobiltCriminalRe
      * Constructor method for CategoryInfo_Type
      * @see parent::__construct()
      * @param string $_msgClass
-     * @param long $_categoryIndicator
-     * @param date $_categoryDt
+     * @param int $_categoryIndicator
+     * @param string $_categoryDt
      * @param MicrobiltCriminalReportStructMessage_Type $_message
      * @return MicrobiltCriminalReportStructCategoryInfo_Type
      */
@@ -83,7 +83,7 @@ class MicrobiltCriminalReportStructCategoryInfo_Type extends MicrobiltCriminalRe
     }
     /**
      * Get CategoryIndicator value
-     * @return long|null
+     * @return int|null
      */
     public function getCategoryIndicator()
     {
@@ -91,8 +91,8 @@ class MicrobiltCriminalReportStructCategoryInfo_Type extends MicrobiltCriminalRe
     }
     /**
      * Set CategoryIndicator value
-     * @param long $_categoryIndicator the CategoryIndicator
-     * @return long
+     * @param int $_categoryIndicator the CategoryIndicator
+     * @return int
      */
     public function setCategoryIndicator($_categoryIndicator)
     {
@@ -100,7 +100,7 @@ class MicrobiltCriminalReportStructCategoryInfo_Type extends MicrobiltCriminalRe
     }
     /**
      * Get CategoryDt value
-     * @return date|null
+     * @return string|null
      */
     public function getCategoryDt()
     {
@@ -108,8 +108,8 @@ class MicrobiltCriminalReportStructCategoryInfo_Type extends MicrobiltCriminalRe
     }
     /**
      * Set CategoryDt value
-     * @param date $_categoryDt the CategoryDt
-     * @return date
+     * @param string $_categoryDt the CategoryDt
+     * @return string
      */
     public function setCategoryDt($_categoryDt)
     {

@@ -24,7 +24,7 @@ class MicrobiltCriminalReportStructSmallBusinessAdvisorySummary_Type extends Mic
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $BirthDt;
     /**
@@ -46,7 +46,7 @@ class MicrobiltCriminalReportStructSmallBusinessAdvisorySummary_Type extends Mic
     /**
      * Constructor method for SmallBusinessAdvisorySummary_Type
      * @see parent::__construct()
-     * @param date $_birthDt
+     * @param string $_birthDt
      * @param string $_dwellingStructureType
      * @param MicrobiltCriminalReportStructScore_Type $_score
      * @return MicrobiltCriminalReportStructSmallBusinessAdvisorySummary_Type
@@ -57,7 +57,7 @@ class MicrobiltCriminalReportStructSmallBusinessAdvisorySummary_Type extends Mic
     }
     /**
      * Get BirthDt value
-     * @return date|null
+     * @return string|null
      */
     public function getBirthDt()
     {
@@ -65,8 +65,8 @@ class MicrobiltCriminalReportStructSmallBusinessAdvisorySummary_Type extends Mic
     }
     /**
      * Set BirthDt value
-     * @param date $_birthDt the BirthDt
-     * @return date
+     * @param string $_birthDt the BirthDt
+     * @return string
      */
     public function setBirthDt($_birthDt)
     {

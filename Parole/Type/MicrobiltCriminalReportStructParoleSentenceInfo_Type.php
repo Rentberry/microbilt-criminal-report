@@ -24,7 +24,7 @@ class MicrobiltCriminalReportStructParoleSentenceInfo_Type extends MicrobiltCrim
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ActualEndDt;
     /**
@@ -56,7 +56,7 @@ class MicrobiltCriminalReportStructParoleSentenceInfo_Type extends MicrobiltCrim
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ScheduledEndDt;
     /**
@@ -64,7 +64,7 @@ class MicrobiltCriminalReportStructParoleSentenceInfo_Type extends MicrobiltCrim
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $StartDt;
     /**
@@ -78,12 +78,12 @@ class MicrobiltCriminalReportStructParoleSentenceInfo_Type extends MicrobiltCrim
     /**
      * Constructor method for ParoleSentenceInfo_Type
      * @see parent::__construct()
-     * @param date $_actualEndDt
+     * @param string $_actualEndDt
      * @param string $_county
      * @param string $_probationStatus
      * @param MicrobiltCriminalReportStructSentenceLength_Type $_sentenceLength
-     * @param date $_scheduledEndDt
-     * @param date $_startDt
+     * @param string $_scheduledEndDt
+     * @param string $_startDt
      * @param MicrobiltCriminalReportStructMessage_Type $_message
      * @return MicrobiltCriminalReportStructParoleSentenceInfo_Type
      */
@@ -93,7 +93,7 @@ class MicrobiltCriminalReportStructParoleSentenceInfo_Type extends MicrobiltCrim
     }
     /**
      * Get ActualEndDt value
-     * @return date|null
+     * @return string|null
      */
     public function getActualEndDt()
     {
@@ -101,8 +101,8 @@ class MicrobiltCriminalReportStructParoleSentenceInfo_Type extends MicrobiltCrim
     }
     /**
      * Set ActualEndDt value
-     * @param date $_actualEndDt the ActualEndDt
-     * @return date
+     * @param string $_actualEndDt the ActualEndDt
+     * @return string
      */
     public function setActualEndDt($_actualEndDt)
     {
@@ -161,7 +161,7 @@ class MicrobiltCriminalReportStructParoleSentenceInfo_Type extends MicrobiltCrim
     }
     /**
      * Get ScheduledEndDt value
-     * @return date|null
+     * @return string|null
      */
     public function getScheduledEndDt()
     {
@@ -169,8 +169,8 @@ class MicrobiltCriminalReportStructParoleSentenceInfo_Type extends MicrobiltCrim
     }
     /**
      * Set ScheduledEndDt value
-     * @param date $_scheduledEndDt the ScheduledEndDt
-     * @return date
+     * @param string $_scheduledEndDt the ScheduledEndDt
+     * @return string
      */
     public function setScheduledEndDt($_scheduledEndDt)
     {
@@ -178,7 +178,7 @@ class MicrobiltCriminalReportStructParoleSentenceInfo_Type extends MicrobiltCrim
     }
     /**
      * Get StartDt value
-     * @return date|null
+     * @return string|null
      */
     public function getStartDt()
     {
@@ -186,8 +186,8 @@ class MicrobiltCriminalReportStructParoleSentenceInfo_Type extends MicrobiltCrim
     }
     /**
      * Set StartDt value
-     * @param date $_startDt the StartDt
-     * @return date
+     * @param string $_startDt the StartDt
+     * @return string
      */
     public function setStartDt($_startDt)
     {

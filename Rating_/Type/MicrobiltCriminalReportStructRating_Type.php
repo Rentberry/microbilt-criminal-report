@@ -48,7 +48,7 @@ class MicrobiltCriminalReportStructRating_Type extends MicrobiltCriminalReportSt
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $RatingDt;
     /**
@@ -65,7 +65,7 @@ class MicrobiltCriminalReportStructRating_Type extends MicrobiltCriminalReportSt
      * @param string $_code
      * @param string $_ratingType
      * @param MicrobiltCriminalReportStructCurrencyAmount $_ratingAmt
-     * @param date $_ratingDt
+     * @param string $_ratingDt
      * @param string $_msgClass
      * @return MicrobiltCriminalReportStructRating_Type
      */
@@ -126,7 +126,7 @@ class MicrobiltCriminalReportStructRating_Type extends MicrobiltCriminalReportSt
     }
     /**
      * Get RatingDt value
-     * @return date|null
+     * @return string|null
      */
     public function getRatingDt()
     {
@@ -134,8 +134,8 @@ class MicrobiltCriminalReportStructRating_Type extends MicrobiltCriminalReportSt
     }
     /**
      * Set RatingDt value
-     * @param date $_ratingDt the RatingDt
-     * @return date
+     * @param string $_ratingDt the RatingDt
+     * @return string
      */
     public function setRatingDt($_ratingDt)
     {

@@ -40,7 +40,7 @@ class MicrobiltCriminalReportStructIntlCourtElementsInfo_Type extends MicrobiltC
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $IntlCourtCount;
     /**
@@ -48,7 +48,7 @@ class MicrobiltCriminalReportStructIntlCourtElementsInfo_Type extends MicrobiltC
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var decimal
+     * @var float
      */
     public $PercentageRatio;
     /**
@@ -56,8 +56,8 @@ class MicrobiltCriminalReportStructIntlCourtElementsInfo_Type extends MicrobiltC
      * @see parent::__construct()
      * @param string $_msgClass
      * @param MicrobiltCriminalReportStructCurrencyAmount $_intlCourtAmt
-     * @param long $_intlCourtCount
-     * @param decimal $_percentageRatio
+     * @param int $_intlCourtCount
+     * @param float $_percentageRatio
      * @return MicrobiltCriminalReportStructIntlCourtElementsInfo_Type
      */
     public function __construct($_msgClass = NULL,$_intlCourtAmt = NULL,$_intlCourtCount = NULL,$_percentageRatio = NULL)
@@ -100,7 +100,7 @@ class MicrobiltCriminalReportStructIntlCourtElementsInfo_Type extends MicrobiltC
     }
     /**
      * Get IntlCourtCount value
-     * @return long|null
+     * @return int|null
      */
     public function getIntlCourtCount()
     {
@@ -108,8 +108,8 @@ class MicrobiltCriminalReportStructIntlCourtElementsInfo_Type extends MicrobiltC
     }
     /**
      * Set IntlCourtCount value
-     * @param long $_intlCourtCount the IntlCourtCount
-     * @return long
+     * @param int $_intlCourtCount the IntlCourtCount
+     * @return int
      */
     public function setIntlCourtCount($_intlCourtCount)
     {
@@ -117,7 +117,7 @@ class MicrobiltCriminalReportStructIntlCourtElementsInfo_Type extends MicrobiltC
     }
     /**
      * Get PercentageRatio value
-     * @return decimal|null
+     * @return float|null
      */
     public function getPercentageRatio()
     {
@@ -125,8 +125,8 @@ class MicrobiltCriminalReportStructIntlCourtElementsInfo_Type extends MicrobiltC
     }
     /**
      * Set PercentageRatio value
-     * @param decimal $_percentageRatio the PercentageRatio
-     * @return decimal
+     * @param float $_percentageRatio the PercentageRatio
+     * @return float
      */
     public function setPercentageRatio($_percentageRatio)
     {

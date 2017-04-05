@@ -40,7 +40,7 @@ class MicrobiltCriminalReportStructEmailInfo_Type extends MicrobiltCriminalRepor
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ReportedDt;
     /**
@@ -56,7 +56,7 @@ class MicrobiltCriminalReportStructEmailInfo_Type extends MicrobiltCriminalRepor
      * @see parent::__construct()
      * @param string $_emailAddr
      * @param string $_iPAddress
-     * @param date $_reportedDt
+     * @param string $_reportedDt
      * @param string $_validationCd
      * @return MicrobiltCriminalReportStructEmailInfo_Type
      */
@@ -100,7 +100,7 @@ class MicrobiltCriminalReportStructEmailInfo_Type extends MicrobiltCriminalRepor
     }
     /**
      * Get ReportedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getReportedDt()
     {
@@ -108,8 +108,8 @@ class MicrobiltCriminalReportStructEmailInfo_Type extends MicrobiltCriminalRepor
     }
     /**
      * Set ReportedDt value
-     * @param date $_reportedDt the ReportedDt
-     * @return date
+     * @param string $_reportedDt the ReportedDt
+     * @return string
      */
     public function setReportedDt($_reportedDt)
     {

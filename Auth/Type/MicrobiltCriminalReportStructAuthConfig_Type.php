@@ -24,7 +24,7 @@ class MicrobiltCriminalReportStructAuthConfig_Type extends MicrobiltCriminalRepo
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $NumOfQuestions;
     /**
@@ -38,7 +38,7 @@ class MicrobiltCriminalReportStructAuthConfig_Type extends MicrobiltCriminalRepo
     /**
      * Constructor method for AuthConfig_Type
      * @see parent::__construct()
-     * @param long $_numOfQuestions
+     * @param int $_numOfQuestions
      * @param MicrobiltCriminalReportStructQuestionConfig_Type $_questionConfig
      * @return MicrobiltCriminalReportStructAuthConfig_Type
      */
@@ -48,7 +48,7 @@ class MicrobiltCriminalReportStructAuthConfig_Type extends MicrobiltCriminalRepo
     }
     /**
      * Get NumOfQuestions value
-     * @return long|null
+     * @return int|null
      */
     public function getNumOfQuestions()
     {
@@ -56,8 +56,8 @@ class MicrobiltCriminalReportStructAuthConfig_Type extends MicrobiltCriminalRepo
     }
     /**
      * Set NumOfQuestions value
-     * @param long $_numOfQuestions the NumOfQuestions
-     * @return long
+     * @param int $_numOfQuestions the NumOfQuestions
+     * @return int
      */
     public function setNumOfQuestions($_numOfQuestions)
     {

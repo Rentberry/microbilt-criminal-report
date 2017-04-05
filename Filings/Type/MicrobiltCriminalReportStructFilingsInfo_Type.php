@@ -40,7 +40,7 @@ class MicrobiltCriminalReportStructFilingsInfo_Type extends MicrobiltCriminalRep
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $FilingDt;
     /**
@@ -96,7 +96,7 @@ class MicrobiltCriminalReportStructFilingsInfo_Type extends MicrobiltCriminalRep
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ReleaseDt;
     /**
@@ -112,14 +112,14 @@ class MicrobiltCriminalReportStructFilingsInfo_Type extends MicrobiltCriminalRep
      * @see parent::__construct()
      * @param string $_filingNum
      * @param string $_filingType
-     * @param date $_filingDt
+     * @param string $_filingDt
      * @param string $_book
      * @param string $_page
      * @param MicrobiltCriminalReportStructOrgInfo_Type $_agency
      * @param string $_origCase
      * @param string $_origBook
      * @param string $_origPage
-     * @param date $_releaseDt
+     * @param string $_releaseDt
      * @param MicrobiltCriminalReportStructCodeDescription_Type $_actionCode
      * @return MicrobiltCriminalReportStructFilingsInfo_Type
      */
@@ -163,7 +163,7 @@ class MicrobiltCriminalReportStructFilingsInfo_Type extends MicrobiltCriminalRep
     }
     /**
      * Get FilingDt value
-     * @return date|null
+     * @return string|null
      */
     public function getFilingDt()
     {
@@ -171,8 +171,8 @@ class MicrobiltCriminalReportStructFilingsInfo_Type extends MicrobiltCriminalRep
     }
     /**
      * Set FilingDt value
-     * @param date $_filingDt the FilingDt
-     * @return date
+     * @param string $_filingDt the FilingDt
+     * @return string
      */
     public function setFilingDt($_filingDt)
     {
@@ -282,7 +282,7 @@ class MicrobiltCriminalReportStructFilingsInfo_Type extends MicrobiltCriminalRep
     }
     /**
      * Get ReleaseDt value
-     * @return date|null
+     * @return string|null
      */
     public function getReleaseDt()
     {
@@ -290,8 +290,8 @@ class MicrobiltCriminalReportStructFilingsInfo_Type extends MicrobiltCriminalRep
     }
     /**
      * Set ReleaseDt value
-     * @param date $_releaseDt the ReleaseDt
-     * @return date
+     * @param string $_releaseDt the ReleaseDt
+     * @return string
      */
     public function setReleaseDt($_releaseDt)
     {

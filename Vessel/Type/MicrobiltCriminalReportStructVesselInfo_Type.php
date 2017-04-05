@@ -64,7 +64,7 @@ class MicrobiltCriminalReportStructVesselInfo_Type extends MicrobiltCriminalRepo
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $LengthFeet;
     /**
@@ -91,7 +91,7 @@ class MicrobiltCriminalReportStructVesselInfo_Type extends MicrobiltCriminalRepo
      * @param MicrobiltCriminalReportStructCodeDescription_Type $_vesselPropulsionType
      * @param string $_boatDescription
      * @param MicrobiltCriminalReportStructCodeDescription_Type $_hullMaterialType
-     * @param long $_lengthFeet
+     * @param int $_lengthFeet
      * @param MicrobiltCriminalReportStructCodeDescription_Type $_vesselType
      * @param string $_modelYear
      * @return MicrobiltCriminalReportStructVesselInfo_Type
@@ -187,7 +187,7 @@ class MicrobiltCriminalReportStructVesselInfo_Type extends MicrobiltCriminalRepo
     }
     /**
      * Get LengthFeet value
-     * @return long|null
+     * @return int|null
      */
     public function getLengthFeet()
     {
@@ -195,8 +195,8 @@ class MicrobiltCriminalReportStructVesselInfo_Type extends MicrobiltCriminalRepo
     }
     /**
      * Set LengthFeet value
-     * @param long $_lengthFeet the LengthFeet
-     * @return long
+     * @param int $_lengthFeet the LengthFeet
+     * @return int
      */
     public function setLengthFeet($_lengthFeet)
     {

@@ -32,7 +32,7 @@ class MicrobiltCriminalReportStructApplicantData_Type extends MicrobiltCriminalR
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $NumberOfCurrentLoans;
     /**
@@ -71,7 +71,7 @@ class MicrobiltCriminalReportStructApplicantData_Type extends MicrobiltCriminalR
      * Constructor method for ApplicantData_Type
      * @see parent::__construct()
      * @param MicrobiltCriminalReportStructCurrencyAmount $_rentPmtAmt
-     * @param long $_numberOfCurrentLoans
+     * @param int $_numberOfCurrentLoans
      * @param MicrobiltCriminalReportEnumBoolean $_previousCustomer
      * @param MicrobiltCriminalReportEnumBoolean $_payrollGarnishment
      * @param MicrobiltCriminalReportEnumBoolean $_currentBankruptcy
@@ -101,7 +101,7 @@ class MicrobiltCriminalReportStructApplicantData_Type extends MicrobiltCriminalR
     }
     /**
      * Get NumberOfCurrentLoans value
-     * @return long|null
+     * @return int|null
      */
     public function getNumberOfCurrentLoans()
     {
@@ -109,8 +109,8 @@ class MicrobiltCriminalReportStructApplicantData_Type extends MicrobiltCriminalR
     }
     /**
      * Set NumberOfCurrentLoans value
-     * @param long $_numberOfCurrentLoans the NumberOfCurrentLoans
-     * @return long
+     * @param int $_numberOfCurrentLoans the NumberOfCurrentLoans
+     * @return int
      */
     public function setNumberOfCurrentLoans($_numberOfCurrentLoans)
     {

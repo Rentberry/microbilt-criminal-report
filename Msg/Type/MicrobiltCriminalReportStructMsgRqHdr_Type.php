@@ -85,7 +85,7 @@ class MicrobiltCriminalReportStructMsgRqHdr_Type extends MicrobiltCriminalReport
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $Timeout;
     /**
@@ -115,7 +115,7 @@ class MicrobiltCriminalReportStructMsgRqHdr_Type extends MicrobiltCriminalReport
      * @param string $_dLPurpose
      * @param string $_refNum
      * @param string $_userName
-     * @param long $_timeout
+     * @param int $_timeout
      * @param string $_frozenFilePIN
      * @param string $_outputFormat
      * @return MicrobiltCriminalReportStructMsgRqHdr_Type
@@ -267,7 +267,7 @@ class MicrobiltCriminalReportStructMsgRqHdr_Type extends MicrobiltCriminalReport
     }
     /**
      * Get Timeout value
-     * @return long|null
+     * @return int|null
      */
     public function getTimeout()
     {
@@ -275,8 +275,8 @@ class MicrobiltCriminalReportStructMsgRqHdr_Type extends MicrobiltCriminalReport
     }
     /**
      * Set Timeout value
-     * @param long $_timeout the Timeout
-     * @return long
+     * @param int $_timeout the Timeout
+     * @return int
      */
     public function setTimeout($_timeout)
     {

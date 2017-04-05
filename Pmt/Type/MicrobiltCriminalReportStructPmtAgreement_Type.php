@@ -32,7 +32,7 @@ class MicrobiltCriminalReportStructPmtAgreement_Type extends MicrobiltCriminalRe
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $AgreementDt;
     /**
@@ -56,7 +56,7 @@ class MicrobiltCriminalReportStructPmtAgreement_Type extends MicrobiltCriminalRe
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $PmtTerms;
     /**
@@ -112,7 +112,7 @@ class MicrobiltCriminalReportStructPmtAgreement_Type extends MicrobiltCriminalRe
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $OpenedDt;
     /**
@@ -120,7 +120,7 @@ class MicrobiltCriminalReportStructPmtAgreement_Type extends MicrobiltCriminalRe
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ReportedDt;
     /**
@@ -128,7 +128,7 @@ class MicrobiltCriminalReportStructPmtAgreement_Type extends MicrobiltCriminalRe
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $PaidDt;
     /**
@@ -143,19 +143,19 @@ class MicrobiltCriminalReportStructPmtAgreement_Type extends MicrobiltCriminalRe
      * Constructor method for PmtAgreement_Type
      * @see parent::__construct()
      * @param string $_acctId
-     * @param date $_agreementDt
+     * @param string $_agreementDt
      * @param MicrobiltCriminalReportStructCurrencyAmount $_totalAmt
      * @param MicrobiltCriminalReportStructCurrencyAmount $_instAmt
-     * @param long $_pmtTerms
+     * @param int $_pmtTerms
      * @param string $_pmtPattern
      * @param string $_pmtFreq
      * @param string $_description
      * @param MicrobiltCriminalReportStructCurrencyAmount $_chargeOffAmt
      * @param MicrobiltCriminalReportStructCompAmt_Type $_balanceAmt
      * @param MicrobiltCriminalReportStructCurrencyAmount $_valueAmt
-     * @param date $_openedDt
-     * @param date $_reportedDt
-     * @param date $_paidDt
+     * @param string $_openedDt
+     * @param string $_reportedDt
+     * @param string $_paidDt
      * @param MicrobiltCriminalReportStructMessage_Type $_message
      * @return MicrobiltCriminalReportStructPmtAgreement_Type
      */
@@ -182,7 +182,7 @@ class MicrobiltCriminalReportStructPmtAgreement_Type extends MicrobiltCriminalRe
     }
     /**
      * Get AgreementDt value
-     * @return date|null
+     * @return string|null
      */
     public function getAgreementDt()
     {
@@ -190,8 +190,8 @@ class MicrobiltCriminalReportStructPmtAgreement_Type extends MicrobiltCriminalRe
     }
     /**
      * Set AgreementDt value
-     * @param date $_agreementDt the AgreementDt
-     * @return date
+     * @param string $_agreementDt the AgreementDt
+     * @return string
      */
     public function setAgreementDt($_agreementDt)
     {
@@ -233,7 +233,7 @@ class MicrobiltCriminalReportStructPmtAgreement_Type extends MicrobiltCriminalRe
     }
     /**
      * Get PmtTerms value
-     * @return long|null
+     * @return int|null
      */
     public function getPmtTerms()
     {
@@ -241,8 +241,8 @@ class MicrobiltCriminalReportStructPmtAgreement_Type extends MicrobiltCriminalRe
     }
     /**
      * Set PmtTerms value
-     * @param long $_pmtTerms the PmtTerms
-     * @return long
+     * @param int $_pmtTerms the PmtTerms
+     * @return int
      */
     public function setPmtTerms($_pmtTerms)
     {
@@ -352,7 +352,7 @@ class MicrobiltCriminalReportStructPmtAgreement_Type extends MicrobiltCriminalRe
     }
     /**
      * Get OpenedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getOpenedDt()
     {
@@ -360,8 +360,8 @@ class MicrobiltCriminalReportStructPmtAgreement_Type extends MicrobiltCriminalRe
     }
     /**
      * Set OpenedDt value
-     * @param date $_openedDt the OpenedDt
-     * @return date
+     * @param string $_openedDt the OpenedDt
+     * @return string
      */
     public function setOpenedDt($_openedDt)
     {
@@ -369,7 +369,7 @@ class MicrobiltCriminalReportStructPmtAgreement_Type extends MicrobiltCriminalRe
     }
     /**
      * Get ReportedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getReportedDt()
     {
@@ -377,8 +377,8 @@ class MicrobiltCriminalReportStructPmtAgreement_Type extends MicrobiltCriminalRe
     }
     /**
      * Set ReportedDt value
-     * @param date $_reportedDt the ReportedDt
-     * @return date
+     * @param string $_reportedDt the ReportedDt
+     * @return string
      */
     public function setReportedDt($_reportedDt)
     {
@@ -386,7 +386,7 @@ class MicrobiltCriminalReportStructPmtAgreement_Type extends MicrobiltCriminalRe
     }
     /**
      * Get PaidDt value
-     * @return date|null
+     * @return string|null
      */
     public function getPaidDt()
     {
@@ -394,8 +394,8 @@ class MicrobiltCriminalReportStructPmtAgreement_Type extends MicrobiltCriminalRe
     }
     /**
      * Set PaidDt value
-     * @param date $_paidDt the PaidDt
-     * @return date
+     * @param string $_paidDt the PaidDt
+     * @return string
      */
     public function setPaidDt($_paidDt)
     {

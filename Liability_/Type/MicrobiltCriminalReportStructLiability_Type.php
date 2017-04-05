@@ -48,7 +48,7 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $OpenedDt;
     /**
@@ -64,7 +64,7 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ClosedDt;
     /**
@@ -72,7 +72,7 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $PaidDt;
     /**
@@ -80,7 +80,7 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ReportedDt;
     /**
@@ -104,7 +104,7 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $StatusDt;
     /**
@@ -120,7 +120,7 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $BalanceDt;
     /**
@@ -208,7 +208,7 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $LastActivityDt;
     /**
@@ -232,7 +232,7 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $LateCount30;
     /**
@@ -240,7 +240,7 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $LateCount60;
     /**
@@ -248,7 +248,7 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $LateCount90;
     /**
@@ -256,7 +256,7 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $LateCount120;
     /**
@@ -312,7 +312,7 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $MonthsReviewed;
     /**
@@ -352,7 +352,7 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $DueDate;
     /**
@@ -384,7 +384,7 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $MaxDelinqDt;
     /**
@@ -400,7 +400,7 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $DerogCount;
     /**
@@ -432,7 +432,7 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $AssociationDt;
     /**
@@ -464,7 +464,7 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $VerifiedDt;
     /**
@@ -488,7 +488,7 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $DtFirstDelinq;
     /**
@@ -553,16 +553,16 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
      * @param string $_acctId
      * @param MicrobiltCriminalReportStructOrgInfo_Type $_orgInfo
      * @param MicrobiltCriminalReportEnumBoolean $_reviewReq
-     * @param date $_openedDt
+     * @param string $_openedDt
      * @param MicrobiltCriminalReportEnumBoolean $_closed
-     * @param date $_closedDt
-     * @param date $_paidDt
-     * @param date $_reportedDt
+     * @param string $_closedDt
+     * @param string $_paidDt
+     * @param string $_reportedDt
      * @param string $_ownershipType
      * @param string $_acctStatus
-     * @param date $_statusDt
+     * @param string $_statusDt
      * @param string $_acctType
-     * @param date $_balanceDt
+     * @param string $_balanceDt
      * @param MicrobiltCriminalReportStructCurrencyAmount $_creditLimitAmt
      * @param MicrobiltCriminalReportStructCurrencyAmount $_balloonPmtAmt
      * @param MicrobiltCriminalReportStructCurrencyAmount $_chargeOffAmt
@@ -573,42 +573,42 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
      * @param MicrobiltCriminalReportEnumBoolean $_derogInd
      * @param MicrobiltCriminalReportStructRating_Type $_currentRating
      * @param string $_mOP
-     * @param date $_lastActivityDt
+     * @param string $_lastActivityDt
      * @param MicrobiltCriminalReportStructCurrencyAmount $_highBalanceAmt
      * @param MicrobiltCriminalReportStructCompAmt_Type $_highCreditAmt
-     * @param long $_lateCount30
-     * @param long $_lateCount60
-     * @param long $_lateCount90
-     * @param long $_lateCount120
+     * @param int $_lateCount30
+     * @param int $_lateCount60
+     * @param int $_lateCount90
+     * @param int $_lateCount120
      * @param string $_pmtPattern
      * @param MicrobiltCriminalReportStructCurrencyAmount $_pastDueAmt
      * @param MicrobiltCriminalReportStructCurrencyAmount $_unpaidBalanceAmt
      * @param MicrobiltCriminalReportStructCurrencyAmount $_actualPmtAmt
      * @param MicrobiltCriminalReportStructCurrencyAmount $_estimatedPmtAmt
      * @param MicrobiltCriminalReportStructCurrencyAmount $_scheduledPmtAmt
-     * @param long $_monthsReviewed
+     * @param int $_monthsReviewed
      * @param string $_pmtStatus
      * @param string $_terms
      * @param MicrobiltCriminalReportStructRating_Type $_maxDelinqRating
      * @param MicrobiltCriminalReportStructRating_Type $_mostRecentRating
-     * @param date $_dueDate
+     * @param string $_dueDate
      * @param string $_pmtFreq
      * @param MicrobiltCriminalReportStructMessage_Type $_message
      * @param MicrobiltCriminalReportStructPaymentInfo_Type $_paymentInfo
-     * @param date $_maxDelinqDt
+     * @param string $_maxDelinqDt
      * @param MicrobiltCriminalReportStructConsumerStatement_Type $_consumerStatement
-     * @param long $_derogCount
+     * @param int $_derogCount
      * @param string $_origCreditor
      * @param string $_soldToCreditor
      * @param MicrobiltCriminalReportStructRating_Type $_recentDelinqRating
-     * @param date $_associationDt
+     * @param string $_associationDt
      * @param MicrobiltCriminalReportEnumBoolean $_openedInLast6Months
      * @param MicrobiltCriminalReportStructCurrencyAmount $_availableAmt
      * @param MicrobiltCriminalReportEnumBoolean $_debtCounselingInd
-     * @param date $_verifiedDt
+     * @param string $_verifiedDt
      * @param MicrobiltCriminalReportStructMessage_Type $_closureReason
      * @param MicrobiltCriminalReportStructCompAmt_Type $_balanceAmt
-     * @param date $_dtFirstDelinq
+     * @param string $_dtFirstDelinq
      * @param string $_memberNumId
      * @param string $_prevMemberNumId
      * @param string $_prevAcctNum
@@ -680,7 +680,7 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
     }
     /**
      * Get OpenedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getOpenedDt()
     {
@@ -688,8 +688,8 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
     }
     /**
      * Set OpenedDt value
-     * @param date $_openedDt the OpenedDt
-     * @return date
+     * @param string $_openedDt the OpenedDt
+     * @return string
      */
     public function setOpenedDt($_openedDt)
     {
@@ -719,7 +719,7 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
     }
     /**
      * Get ClosedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getClosedDt()
     {
@@ -727,8 +727,8 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
     }
     /**
      * Set ClosedDt value
-     * @param date $_closedDt the ClosedDt
-     * @return date
+     * @param string $_closedDt the ClosedDt
+     * @return string
      */
     public function setClosedDt($_closedDt)
     {
@@ -736,7 +736,7 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
     }
     /**
      * Get PaidDt value
-     * @return date|null
+     * @return string|null
      */
     public function getPaidDt()
     {
@@ -744,8 +744,8 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
     }
     /**
      * Set PaidDt value
-     * @param date $_paidDt the PaidDt
-     * @return date
+     * @param string $_paidDt the PaidDt
+     * @return string
      */
     public function setPaidDt($_paidDt)
     {
@@ -753,7 +753,7 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
     }
     /**
      * Get ReportedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getReportedDt()
     {
@@ -761,8 +761,8 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
     }
     /**
      * Set ReportedDt value
-     * @param date $_reportedDt the ReportedDt
-     * @return date
+     * @param string $_reportedDt the ReportedDt
+     * @return string
      */
     public function setReportedDt($_reportedDt)
     {
@@ -804,7 +804,7 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
     }
     /**
      * Get StatusDt value
-     * @return date|null
+     * @return string|null
      */
     public function getStatusDt()
     {
@@ -812,8 +812,8 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
     }
     /**
      * Set StatusDt value
-     * @param date $_statusDt the StatusDt
-     * @return date
+     * @param string $_statusDt the StatusDt
+     * @return string
      */
     public function setStatusDt($_statusDt)
     {
@@ -838,7 +838,7 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
     }
     /**
      * Get BalanceDt value
-     * @return date|null
+     * @return string|null
      */
     public function getBalanceDt()
     {
@@ -846,8 +846,8 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
     }
     /**
      * Set BalanceDt value
-     * @param date $_balanceDt the BalanceDt
-     * @return date
+     * @param string $_balanceDt the BalanceDt
+     * @return string
      */
     public function setBalanceDt($_balanceDt)
     {
@@ -1035,7 +1035,7 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
     }
     /**
      * Get LastActivityDt value
-     * @return date|null
+     * @return string|null
      */
     public function getLastActivityDt()
     {
@@ -1043,8 +1043,8 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
     }
     /**
      * Set LastActivityDt value
-     * @param date $_lastActivityDt the LastActivityDt
-     * @return date
+     * @param string $_lastActivityDt the LastActivityDt
+     * @return string
      */
     public function setLastActivityDt($_lastActivityDt)
     {
@@ -1086,7 +1086,7 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
     }
     /**
      * Get LateCount30 value
-     * @return long|null
+     * @return int|null
      */
     public function getLateCount30()
     {
@@ -1094,8 +1094,8 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
     }
     /**
      * Set LateCount30 value
-     * @param long $_lateCount30 the LateCount30
-     * @return long
+     * @param int $_lateCount30 the LateCount30
+     * @return int
      */
     public function setLateCount30($_lateCount30)
     {
@@ -1103,7 +1103,7 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
     }
     /**
      * Get LateCount60 value
-     * @return long|null
+     * @return int|null
      */
     public function getLateCount60()
     {
@@ -1111,8 +1111,8 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
     }
     /**
      * Set LateCount60 value
-     * @param long $_lateCount60 the LateCount60
-     * @return long
+     * @param int $_lateCount60 the LateCount60
+     * @return int
      */
     public function setLateCount60($_lateCount60)
     {
@@ -1120,7 +1120,7 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
     }
     /**
      * Get LateCount90 value
-     * @return long|null
+     * @return int|null
      */
     public function getLateCount90()
     {
@@ -1128,8 +1128,8 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
     }
     /**
      * Set LateCount90 value
-     * @param long $_lateCount90 the LateCount90
-     * @return long
+     * @param int $_lateCount90 the LateCount90
+     * @return int
      */
     public function setLateCount90($_lateCount90)
     {
@@ -1137,7 +1137,7 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
     }
     /**
      * Get LateCount120 value
-     * @return long|null
+     * @return int|null
      */
     public function getLateCount120()
     {
@@ -1145,8 +1145,8 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
     }
     /**
      * Set LateCount120 value
-     * @param long $_lateCount120 the LateCount120
-     * @return long
+     * @param int $_lateCount120 the LateCount120
+     * @return int
      */
     public function setLateCount120($_lateCount120)
     {
@@ -1256,7 +1256,7 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
     }
     /**
      * Get MonthsReviewed value
-     * @return long|null
+     * @return int|null
      */
     public function getMonthsReviewed()
     {
@@ -1264,8 +1264,8 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
     }
     /**
      * Set MonthsReviewed value
-     * @param long $_monthsReviewed the MonthsReviewed
-     * @return long
+     * @param int $_monthsReviewed the MonthsReviewed
+     * @return int
      */
     public function setMonthsReviewed($_monthsReviewed)
     {
@@ -1341,7 +1341,7 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
     }
     /**
      * Get DueDate value
-     * @return date|null
+     * @return string|null
      */
     public function getDueDate()
     {
@@ -1349,8 +1349,8 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
     }
     /**
      * Set DueDate value
-     * @param date $_dueDate the DueDate
-     * @return date
+     * @param string $_dueDate the DueDate
+     * @return string
      */
     public function setDueDate($_dueDate)
     {
@@ -1409,7 +1409,7 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
     }
     /**
      * Get MaxDelinqDt value
-     * @return date|null
+     * @return string|null
      */
     public function getMaxDelinqDt()
     {
@@ -1417,8 +1417,8 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
     }
     /**
      * Set MaxDelinqDt value
-     * @param date $_maxDelinqDt the MaxDelinqDt
-     * @return date
+     * @param string $_maxDelinqDt the MaxDelinqDt
+     * @return string
      */
     public function setMaxDelinqDt($_maxDelinqDt)
     {
@@ -1443,7 +1443,7 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
     }
     /**
      * Get DerogCount value
-     * @return long|null
+     * @return int|null
      */
     public function getDerogCount()
     {
@@ -1451,8 +1451,8 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
     }
     /**
      * Set DerogCount value
-     * @param long $_derogCount the DerogCount
-     * @return long
+     * @param int $_derogCount the DerogCount
+     * @return int
      */
     public function setDerogCount($_derogCount)
     {
@@ -1511,7 +1511,7 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
     }
     /**
      * Get AssociationDt value
-     * @return date|null
+     * @return string|null
      */
     public function getAssociationDt()
     {
@@ -1519,8 +1519,8 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
     }
     /**
      * Set AssociationDt value
-     * @param date $_associationDt the AssociationDt
-     * @return date
+     * @param string $_associationDt the AssociationDt
+     * @return string
      */
     public function setAssociationDt($_associationDt)
     {
@@ -1589,7 +1589,7 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
     }
     /**
      * Get VerifiedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getVerifiedDt()
     {
@@ -1597,8 +1597,8 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
     }
     /**
      * Set VerifiedDt value
-     * @param date $_verifiedDt the VerifiedDt
-     * @return date
+     * @param string $_verifiedDt the VerifiedDt
+     * @return string
      */
     public function setVerifiedDt($_verifiedDt)
     {
@@ -1640,7 +1640,7 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
     }
     /**
      * Get DtFirstDelinq value
-     * @return date|null
+     * @return string|null
      */
     public function getDtFirstDelinq()
     {
@@ -1648,8 +1648,8 @@ class MicrobiltCriminalReportStructLiability_Type extends MicrobiltCriminalRepor
     }
     /**
      * Set DtFirstDelinq value
-     * @param date $_dtFirstDelinq the DtFirstDelinq
-     * @return date
+     * @param string $_dtFirstDelinq the DtFirstDelinq
+     * @return string
      */
     public function setDtFirstDelinq($_dtFirstDelinq)
     {

@@ -32,7 +32,7 @@ class MicrobiltCriminalReportStructEvictionsCase_Type extends MicrobiltCriminalR
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $FileDt;
     /**
@@ -207,7 +207,7 @@ class MicrobiltCriminalReportStructEvictionsCase_Type extends MicrobiltCriminalR
      * Constructor method for EvictionsCase_Type
      * @see parent::__construct()
      * @param string $_caseId
-     * @param date $_fileDt
+     * @param string $_fileDt
      * @param string $_courtName
      * @param string $_countyCode
      * @param string $_courtState
@@ -254,7 +254,7 @@ class MicrobiltCriminalReportStructEvictionsCase_Type extends MicrobiltCriminalR
     }
     /**
      * Get FileDt value
-     * @return date|null
+     * @return string|null
      */
     public function getFileDt()
     {
@@ -262,8 +262,8 @@ class MicrobiltCriminalReportStructEvictionsCase_Type extends MicrobiltCriminalR
     }
     /**
      * Set FileDt value
-     * @param date $_fileDt the FileDt
-     * @return date
+     * @param string $_fileDt the FileDt
+     * @return string
      */
     public function setFileDt($_fileDt)
     {

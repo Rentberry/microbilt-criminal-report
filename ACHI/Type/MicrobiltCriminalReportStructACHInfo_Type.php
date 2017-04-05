@@ -64,7 +64,7 @@ class MicrobiltCriminalReportStructACHInfo_Type extends MicrobiltCriminalReportS
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $CheckDt;
     /**
@@ -83,7 +83,7 @@ class MicrobiltCriminalReportStructACHInfo_Type extends MicrobiltCriminalReportS
      * @param string $_checkAcctType
      * @param string $_checkNum
      * @param string $_checkEntryClassCd
-     * @param date $_checkDt
+     * @param string $_checkDt
      * @param string $_aCHPaymentType
      * @return MicrobiltCriminalReportStructACHInfo_Type
      */
@@ -178,7 +178,7 @@ class MicrobiltCriminalReportStructACHInfo_Type extends MicrobiltCriminalReportS
     }
     /**
      * Get CheckDt value
-     * @return date|null
+     * @return string|null
      */
     public function getCheckDt()
     {
@@ -186,8 +186,8 @@ class MicrobiltCriminalReportStructACHInfo_Type extends MicrobiltCriminalReportS
     }
     /**
      * Set CheckDt value
-     * @param date $_checkDt the CheckDt
-     * @return date
+     * @param string $_checkDt the CheckDt
+     * @return string
      */
     public function setCheckDt($_checkDt)
     {

@@ -40,7 +40,7 @@ class MicrobiltCriminalReportStructGovtFinancialExperiences_Type extends Microbi
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $OpenedDt;
     /**
@@ -48,7 +48,7 @@ class MicrobiltCriminalReportStructGovtFinancialExperiences_Type extends Microbi
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ClosedDt;
     /**
@@ -88,7 +88,7 @@ class MicrobiltCriminalReportStructGovtFinancialExperiences_Type extends Microbi
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ProfileDt;
     /**
@@ -104,13 +104,13 @@ class MicrobiltCriminalReportStructGovtFinancialExperiences_Type extends Microbi
      * @see parent::__construct()
      * @param MicrobiltCriminalReportStructOrgInfo_Type $_orgInfo
      * @param string $_typeOfBankAcct
-     * @param date $_openedDt
-     * @param date $_closedDt
+     * @param string $_openedDt
+     * @param string $_closedDt
      * @param MicrobiltCriminalReportStructCodeDescription_Type $_accountRating
      * @param MicrobiltCriminalReportStructCodeDescription_Type $_balanceRange
      * @param MicrobiltCriminalReportStructCodeDescription_Type $_figuresInBalance
      * @param MicrobiltCriminalReportStructCompAmt_Type $_balanceAmt
-     * @param date $_profileDt
+     * @param string $_profileDt
      * @param MicrobiltCriminalReportEnumBoolean $_disputeInd
      * @return MicrobiltCriminalReportStructGovtFinancialExperiences_Type
      */
@@ -154,7 +154,7 @@ class MicrobiltCriminalReportStructGovtFinancialExperiences_Type extends Microbi
     }
     /**
      * Get OpenedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getOpenedDt()
     {
@@ -162,8 +162,8 @@ class MicrobiltCriminalReportStructGovtFinancialExperiences_Type extends Microbi
     }
     /**
      * Set OpenedDt value
-     * @param date $_openedDt the OpenedDt
-     * @return date
+     * @param string $_openedDt the OpenedDt
+     * @return string
      */
     public function setOpenedDt($_openedDt)
     {
@@ -171,7 +171,7 @@ class MicrobiltCriminalReportStructGovtFinancialExperiences_Type extends Microbi
     }
     /**
      * Get ClosedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getClosedDt()
     {
@@ -179,8 +179,8 @@ class MicrobiltCriminalReportStructGovtFinancialExperiences_Type extends Microbi
     }
     /**
      * Set ClosedDt value
-     * @param date $_closedDt the ClosedDt
-     * @return date
+     * @param string $_closedDt the ClosedDt
+     * @return string
      */
     public function setClosedDt($_closedDt)
     {
@@ -256,7 +256,7 @@ class MicrobiltCriminalReportStructGovtFinancialExperiences_Type extends Microbi
     }
     /**
      * Get ProfileDt value
-     * @return date|null
+     * @return string|null
      */
     public function getProfileDt()
     {
@@ -264,8 +264,8 @@ class MicrobiltCriminalReportStructGovtFinancialExperiences_Type extends Microbi
     }
     /**
      * Set ProfileDt value
-     * @param date $_profileDt the ProfileDt
-     * @return date
+     * @param string $_profileDt the ProfileDt
+     * @return string
      */
     public function setProfileDt($_profileDt)
     {

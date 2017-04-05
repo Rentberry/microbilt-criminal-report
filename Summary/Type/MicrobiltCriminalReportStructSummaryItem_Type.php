@@ -48,7 +48,7 @@ class MicrobiltCriminalReportStructSummaryItem_Type extends MicrobiltCriminalRep
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $LastActivityDt;
     /**
@@ -57,7 +57,7 @@ class MicrobiltCriminalReportStructSummaryItem_Type extends MicrobiltCriminalRep
      * @param string $_summaryType
      * @param string $_count
      * @param MicrobiltCriminalReportStructCommercialAmounts_Type $_commercialAmounts
-     * @param date $_lastActivityDt
+     * @param string $_lastActivityDt
      * @return MicrobiltCriminalReportStructSummaryItem_Type
      */
     public function __construct($_summaryType = NULL,$_count = NULL,$_commercialAmounts = NULL,$_lastActivityDt = NULL)
@@ -117,7 +117,7 @@ class MicrobiltCriminalReportStructSummaryItem_Type extends MicrobiltCriminalRep
     }
     /**
      * Get LastActivityDt value
-     * @return date|null
+     * @return string|null
      */
     public function getLastActivityDt()
     {
@@ -125,8 +125,8 @@ class MicrobiltCriminalReportStructSummaryItem_Type extends MicrobiltCriminalRep
     }
     /**
      * Set LastActivityDt value
-     * @param date $_lastActivityDt the LastActivityDt
-     * @return date
+     * @param string $_lastActivityDt the LastActivityDt
+     * @return string
      */
     public function setLastActivityDt($_lastActivityDt)
     {

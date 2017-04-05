@@ -56,7 +56,7 @@ class MicrobiltCriminalReportStructTransaction_Type extends MicrobiltCriminalRep
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $TransDt;
     /**
@@ -90,7 +90,7 @@ class MicrobiltCriminalReportStructTransaction_Type extends MicrobiltCriminalRep
      * @param string $_transEntityName
      * @param string $_transType
      * @param MicrobiltCriminalReportStructCurrencyAmount $_transAmt
-     * @param date $_transDt
+     * @param string $_transDt
      * @param MicrobiltCriminalReportStructMessage_Type $_message
      * @param time $_transTime
      * @param string $_transDetails
@@ -170,7 +170,7 @@ class MicrobiltCriminalReportStructTransaction_Type extends MicrobiltCriminalRep
     }
     /**
      * Get TransDt value
-     * @return date|null
+     * @return string|null
      */
     public function getTransDt()
     {
@@ -178,8 +178,8 @@ class MicrobiltCriminalReportStructTransaction_Type extends MicrobiltCriminalRep
     }
     /**
      * Set TransDt value
-     * @param date $_transDt the TransDt
-     * @return date
+     * @param string $_transDt the TransDt
+     * @return string
      */
     public function setTransDt($_transDt)
     {

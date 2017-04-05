@@ -24,7 +24,7 @@ class MicrobiltCriminalReportStructProfileStatusInfo_Type extends MicrobiltCrimi
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ProfileStatusDt;
     /**
@@ -46,7 +46,7 @@ class MicrobiltCriminalReportStructProfileStatusInfo_Type extends MicrobiltCrimi
     /**
      * Constructor method for ProfileStatusInfo_Type
      * @see parent::__construct()
-     * @param date $_profileStatusDt
+     * @param string $_profileStatusDt
      * @param string $_statusHTML
      * @param MicrobiltCriminalReportStructMessage_Type $_message
      * @return MicrobiltCriminalReportStructProfileStatusInfo_Type
@@ -57,7 +57,7 @@ class MicrobiltCriminalReportStructProfileStatusInfo_Type extends MicrobiltCrimi
     }
     /**
      * Get ProfileStatusDt value
-     * @return date|null
+     * @return string|null
      */
     public function getProfileStatusDt()
     {
@@ -65,8 +65,8 @@ class MicrobiltCriminalReportStructProfileStatusInfo_Type extends MicrobiltCrimi
     }
     /**
      * Set ProfileStatusDt value
-     * @param date $_profileStatusDt the ProfileStatusDt
-     * @return date
+     * @param string $_profileStatusDt the ProfileStatusDt
+     * @return string
      */
     public function setProfileStatusDt($_profileStatusDt)
     {

@@ -32,7 +32,7 @@ class MicrobiltCriminalReportStructUCC_Type extends MicrobiltCriminalReportStruc
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $FileDt;
     /**
@@ -56,7 +56,7 @@ class MicrobiltCriminalReportStructUCC_Type extends MicrobiltCriminalReportStruc
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $OrigDtFiled;
     /**
@@ -95,10 +95,10 @@ class MicrobiltCriminalReportStructUCC_Type extends MicrobiltCriminalReportStruc
      * Constructor method for UCC_Type
      * @see parent::__construct()
      * @param MicrobiltCriminalReportStructPersonInfo_Type $_personInfo
-     * @param date $_fileDt
+     * @param string $_fileDt
      * @param string $_filingState
      * @param string $_filingNum
-     * @param date $_origDtFiled
+     * @param string $_origDtFiled
      * @param string $_origNum
      * @param string $_collateralDesc
      * @param string $_filingCount
@@ -128,7 +128,7 @@ class MicrobiltCriminalReportStructUCC_Type extends MicrobiltCriminalReportStruc
     }
     /**
      * Get FileDt value
-     * @return date|null
+     * @return string|null
      */
     public function getFileDt()
     {
@@ -136,8 +136,8 @@ class MicrobiltCriminalReportStructUCC_Type extends MicrobiltCriminalReportStruc
     }
     /**
      * Set FileDt value
-     * @param date $_fileDt the FileDt
-     * @return date
+     * @param string $_fileDt the FileDt
+     * @return string
      */
     public function setFileDt($_fileDt)
     {
@@ -179,7 +179,7 @@ class MicrobiltCriminalReportStructUCC_Type extends MicrobiltCriminalReportStruc
     }
     /**
      * Get OrigDtFiled value
-     * @return date|null
+     * @return string|null
      */
     public function getOrigDtFiled()
     {
@@ -187,8 +187,8 @@ class MicrobiltCriminalReportStructUCC_Type extends MicrobiltCriminalReportStruc
     }
     /**
      * Set OrigDtFiled value
-     * @param date $_origDtFiled the OrigDtFiled
-     * @return date
+     * @param string $_origDtFiled the OrigDtFiled
+     * @return string
      */
     public function setOrigDtFiled($_origDtFiled)
     {

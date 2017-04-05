@@ -32,7 +32,7 @@ class MicrobiltCriminalReportStructConsumerStatement_Type extends MicrobiltCrimi
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $StatementDt;
     /**
@@ -47,7 +47,7 @@ class MicrobiltCriminalReportStructConsumerStatement_Type extends MicrobiltCrimi
      * Constructor method for ConsumerStatement_Type
      * @see parent::__construct()
      * @param string $_statementType
-     * @param date $_statementDt
+     * @param string $_statementDt
      * @param string $_text
      * @return MicrobiltCriminalReportStructConsumerStatement_Type
      */
@@ -74,7 +74,7 @@ class MicrobiltCriminalReportStructConsumerStatement_Type extends MicrobiltCrimi
     }
     /**
      * Get StatementDt value
-     * @return date|null
+     * @return string|null
      */
     public function getStatementDt()
     {
@@ -82,8 +82,8 @@ class MicrobiltCriminalReportStructConsumerStatement_Type extends MicrobiltCrimi
     }
     /**
      * Set StatementDt value
-     * @param date $_statementDt the StatementDt
-     * @return date
+     * @param string $_statementDt the StatementDt
+     * @return string
      */
     public function setStatementDt($_statementDt)
     {

@@ -24,7 +24,7 @@ class MicrobiltCriminalReportStructSummaryCharacteristics extends MicrobiltCrimi
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 1
-     * @var long
+     * @var int
      */
     public $Quantity;
     /**
@@ -46,7 +46,7 @@ class MicrobiltCriminalReportStructSummaryCharacteristics extends MicrobiltCrimi
     /**
      * Constructor method for SummaryCharacteristics
      * @see parent::__construct()
-     * @param long $_quantity
+     * @param int $_quantity
      * @param string $_msgClass
      * @param MicrobiltCriminalReportStructCodeDescription_Type $_characteristics
      * @return MicrobiltCriminalReportStructSummaryCharacteristics
@@ -57,7 +57,7 @@ class MicrobiltCriminalReportStructSummaryCharacteristics extends MicrobiltCrimi
     }
     /**
      * Get Quantity value
-     * @return long
+     * @return int
      */
     public function getQuantity()
     {
@@ -65,8 +65,8 @@ class MicrobiltCriminalReportStructSummaryCharacteristics extends MicrobiltCrimi
     }
     /**
      * Set Quantity value
-     * @param long $_quantity the Quantity
-     * @return long
+     * @param int $_quantity the Quantity
+     * @return int
      */
     public function setQuantity($_quantity)
     {

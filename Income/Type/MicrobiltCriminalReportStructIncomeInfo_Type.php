@@ -64,7 +64,7 @@ class MicrobiltCriminalReportStructIncomeInfo_Type extends MicrobiltCriminalRepo
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $DtOfNextPaycheck;
     /**
@@ -72,7 +72,7 @@ class MicrobiltCriminalReportStructIncomeInfo_Type extends MicrobiltCriminalRepo
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $DtOfSecondPaycheck;
     /**
@@ -91,8 +91,8 @@ class MicrobiltCriminalReportStructIncomeInfo_Type extends MicrobiltCriminalRepo
      * @param string $_pmtFreq
      * @param MicrobiltCriminalReportStructCurrencyAmount $_payPerPeriod
      * @param MicrobiltCriminalReportEnumBoolean $_directDepositInd
-     * @param date $_dtOfNextPaycheck
-     * @param date $_dtOfSecondPaycheck
+     * @param string $_dtOfNextPaycheck
+     * @param string $_dtOfSecondPaycheck
      * @param MicrobiltCriminalReportStructCurrencyAmount $_grossIncome
      * @return MicrobiltCriminalReportStructIncomeInfo_Type
      */
@@ -192,7 +192,7 @@ class MicrobiltCriminalReportStructIncomeInfo_Type extends MicrobiltCriminalRepo
     }
     /**
      * Get DtOfNextPaycheck value
-     * @return date|null
+     * @return string|null
      */
     public function getDtOfNextPaycheck()
     {
@@ -200,8 +200,8 @@ class MicrobiltCriminalReportStructIncomeInfo_Type extends MicrobiltCriminalRepo
     }
     /**
      * Set DtOfNextPaycheck value
-     * @param date $_dtOfNextPaycheck the DtOfNextPaycheck
-     * @return date
+     * @param string $_dtOfNextPaycheck the DtOfNextPaycheck
+     * @return string
      */
     public function setDtOfNextPaycheck($_dtOfNextPaycheck)
     {
@@ -209,7 +209,7 @@ class MicrobiltCriminalReportStructIncomeInfo_Type extends MicrobiltCriminalRepo
     }
     /**
      * Get DtOfSecondPaycheck value
-     * @return date|null
+     * @return string|null
      */
     public function getDtOfSecondPaycheck()
     {
@@ -217,8 +217,8 @@ class MicrobiltCriminalReportStructIncomeInfo_Type extends MicrobiltCriminalRepo
     }
     /**
      * Set DtOfSecondPaycheck value
-     * @param date $_dtOfSecondPaycheck the DtOfSecondPaycheck
-     * @return date
+     * @param string $_dtOfSecondPaycheck the DtOfSecondPaycheck
+     * @return string
      */
     public function setDtOfSecondPaycheck($_dtOfSecondPaycheck)
     {

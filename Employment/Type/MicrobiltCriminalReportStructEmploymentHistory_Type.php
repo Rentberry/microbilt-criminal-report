@@ -72,7 +72,7 @@ class MicrobiltCriminalReportStructEmploymentHistory_Type extends MicrobiltCrimi
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $StartDt;
     /**
@@ -80,7 +80,7 @@ class MicrobiltCriminalReportStructEmploymentHistory_Type extends MicrobiltCrimi
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $EndDt;
     /**
@@ -88,7 +88,7 @@ class MicrobiltCriminalReportStructEmploymentHistory_Type extends MicrobiltCrimi
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $VerifiedDt;
     /**
@@ -128,7 +128,7 @@ class MicrobiltCriminalReportStructEmploymentHistory_Type extends MicrobiltCrimi
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $FirstRptdDt;
     /**
@@ -136,7 +136,7 @@ class MicrobiltCriminalReportStructEmploymentHistory_Type extends MicrobiltCrimi
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $LastRptdDt;
     /**
@@ -156,15 +156,15 @@ class MicrobiltCriminalReportStructEmploymentHistory_Type extends MicrobiltCrimi
      * @param MicrobiltCriminalReportStructCurrencyAmount $_income
      * @param string $_pmtFreq
      * @param string $_jobTitle
-     * @param date $_startDt
-     * @param date $_endDt
-     * @param date $_verifiedDt
+     * @param string $_startDt
+     * @param string $_endDt
+     * @param string $_verifiedDt
      * @param string $_verificationCode
      * @param MicrobiltCriminalReportStructMessage_Type $_message
      * @param string $_sourceType
      * @param string $_disconnectInd
-     * @param date $_firstRptdDt
-     * @param date $_lastRptdDt
+     * @param string $_firstRptdDt
+     * @param string $_lastRptdDt
      * @param string $_lengthOfEmployment
      * @return MicrobiltCriminalReportStructEmploymentHistory_Type
      */
@@ -276,7 +276,7 @@ class MicrobiltCriminalReportStructEmploymentHistory_Type extends MicrobiltCrimi
     }
     /**
      * Get StartDt value
-     * @return date|null
+     * @return string|null
      */
     public function getStartDt()
     {
@@ -284,8 +284,8 @@ class MicrobiltCriminalReportStructEmploymentHistory_Type extends MicrobiltCrimi
     }
     /**
      * Set StartDt value
-     * @param date $_startDt the StartDt
-     * @return date
+     * @param string $_startDt the StartDt
+     * @return string
      */
     public function setStartDt($_startDt)
     {
@@ -293,7 +293,7 @@ class MicrobiltCriminalReportStructEmploymentHistory_Type extends MicrobiltCrimi
     }
     /**
      * Get EndDt value
-     * @return date|null
+     * @return string|null
      */
     public function getEndDt()
     {
@@ -301,8 +301,8 @@ class MicrobiltCriminalReportStructEmploymentHistory_Type extends MicrobiltCrimi
     }
     /**
      * Set EndDt value
-     * @param date $_endDt the EndDt
-     * @return date
+     * @param string $_endDt the EndDt
+     * @return string
      */
     public function setEndDt($_endDt)
     {
@@ -310,7 +310,7 @@ class MicrobiltCriminalReportStructEmploymentHistory_Type extends MicrobiltCrimi
     }
     /**
      * Get VerifiedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getVerifiedDt()
     {
@@ -318,8 +318,8 @@ class MicrobiltCriminalReportStructEmploymentHistory_Type extends MicrobiltCrimi
     }
     /**
      * Set VerifiedDt value
-     * @param date $_verifiedDt the VerifiedDt
-     * @return date
+     * @param string $_verifiedDt the VerifiedDt
+     * @return string
      */
     public function setVerifiedDt($_verifiedDt)
     {
@@ -395,7 +395,7 @@ class MicrobiltCriminalReportStructEmploymentHistory_Type extends MicrobiltCrimi
     }
     /**
      * Get FirstRptdDt value
-     * @return date|null
+     * @return string|null
      */
     public function getFirstRptdDt()
     {
@@ -403,8 +403,8 @@ class MicrobiltCriminalReportStructEmploymentHistory_Type extends MicrobiltCrimi
     }
     /**
      * Set FirstRptdDt value
-     * @param date $_firstRptdDt the FirstRptdDt
-     * @return date
+     * @param string $_firstRptdDt the FirstRptdDt
+     * @return string
      */
     public function setFirstRptdDt($_firstRptdDt)
     {
@@ -412,7 +412,7 @@ class MicrobiltCriminalReportStructEmploymentHistory_Type extends MicrobiltCrimi
     }
     /**
      * Get LastRptdDt value
-     * @return date|null
+     * @return string|null
      */
     public function getLastRptdDt()
     {
@@ -420,8 +420,8 @@ class MicrobiltCriminalReportStructEmploymentHistory_Type extends MicrobiltCrimi
     }
     /**
      * Set LastRptdDt value
-     * @param date $_lastRptdDt the LastRptdDt
-     * @return date
+     * @param string $_lastRptdDt the LastRptdDt
+     * @return string
      */
     public function setLastRptdDt($_lastRptdDt)
     {

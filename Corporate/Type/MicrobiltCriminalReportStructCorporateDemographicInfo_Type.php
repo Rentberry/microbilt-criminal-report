@@ -32,7 +32,7 @@ class MicrobiltCriminalReportStructCorporateDemographicInfo_Type extends Microbi
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $YearsInBusiness;
     /**
@@ -64,7 +64,7 @@ class MicrobiltCriminalReportStructCorporateDemographicInfo_Type extends Microbi
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $InBuildingDt;
     /**
@@ -104,7 +104,7 @@ class MicrobiltCriminalReportStructCorporateDemographicInfo_Type extends Microbi
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $NumCustomers;
     /**
@@ -135,16 +135,16 @@ class MicrobiltCriminalReportStructCorporateDemographicInfo_Type extends Microbi
      * Constructor method for CorporateDemographicInfo_Type
      * @see parent::__construct()
      * @param MicrobiltCriminalReportStructIndustId_Type $_industId
-     * @param long $_yearsInBusiness
+     * @param int $_yearsInBusiness
      * @param MicrobiltCriminalReportStructMinMaxRange_Type $_yearsInBusinessRange
      * @param MicrobiltCriminalReportStructCommercialAmounts_Type $_commercialAmounts
      * @param MicrobiltCriminalReportStructMinMaxRange_Type $_numEmployeesRange
-     * @param date $_inBuildingDt
+     * @param string $_inBuildingDt
      * @param string $_buildingSize
      * @param string $_ownershipCode
      * @param string $_ownershipEntity
      * @param string $_businessLocationType
-     * @param long $_numCustomers
+     * @param int $_numCustomers
      * @param string $_fiscalYrStartMonth
      * @param MicrobiltCriminalReportEnumBoolean $_disputeInd
      * @param MicrobiltCriminalReportStructMessage_Type $_message
@@ -173,7 +173,7 @@ class MicrobiltCriminalReportStructCorporateDemographicInfo_Type extends Microbi
     }
     /**
      * Get YearsInBusiness value
-     * @return long|null
+     * @return int|null
      */
     public function getYearsInBusiness()
     {
@@ -181,8 +181,8 @@ class MicrobiltCriminalReportStructCorporateDemographicInfo_Type extends Microbi
     }
     /**
      * Set YearsInBusiness value
-     * @param long $_yearsInBusiness the YearsInBusiness
-     * @return long
+     * @param int $_yearsInBusiness the YearsInBusiness
+     * @return int
      */
     public function setYearsInBusiness($_yearsInBusiness)
     {
@@ -241,7 +241,7 @@ class MicrobiltCriminalReportStructCorporateDemographicInfo_Type extends Microbi
     }
     /**
      * Get InBuildingDt value
-     * @return date|null
+     * @return string|null
      */
     public function getInBuildingDt()
     {
@@ -249,8 +249,8 @@ class MicrobiltCriminalReportStructCorporateDemographicInfo_Type extends Microbi
     }
     /**
      * Set InBuildingDt value
-     * @param date $_inBuildingDt the InBuildingDt
-     * @return date
+     * @param string $_inBuildingDt the InBuildingDt
+     * @return string
      */
     public function setInBuildingDt($_inBuildingDt)
     {
@@ -326,7 +326,7 @@ class MicrobiltCriminalReportStructCorporateDemographicInfo_Type extends Microbi
     }
     /**
      * Get NumCustomers value
-     * @return long|null
+     * @return int|null
      */
     public function getNumCustomers()
     {
@@ -334,8 +334,8 @@ class MicrobiltCriminalReportStructCorporateDemographicInfo_Type extends Microbi
     }
     /**
      * Set NumCustomers value
-     * @param long $_numCustomers the NumCustomers
-     * @return long
+     * @param int $_numCustomers the NumCustomers
+     * @return int
      */
     public function setNumCustomers($_numCustomers)
     {

@@ -56,7 +56,7 @@ class MicrobiltCriminalReportStructLienHolderInfo_Type extends MicrobiltCriminal
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $LienDt;
     /**
@@ -66,7 +66,7 @@ class MicrobiltCriminalReportStructLienHolderInfo_Type extends MicrobiltCriminal
      * @param MicrobiltCriminalReportStructPersonInfo_Type $_personInfo
      * @param string $_dealerLicNum
      * @param MicrobiltCriminalReportStructCommercialDates_Type $_commercialDates
-     * @param date $_lienDt
+     * @param string $_lienDt
      * @return MicrobiltCriminalReportStructLienHolderInfo_Type
      */
     public function __construct($_lienHolderType = NULL,$_personInfo = NULL,$_dealerLicNum = NULL,$_commercialDates = NULL,$_lienDt = NULL)
@@ -143,7 +143,7 @@ class MicrobiltCriminalReportStructLienHolderInfo_Type extends MicrobiltCriminal
     }
     /**
      * Get LienDt value
-     * @return date|null
+     * @return string|null
      */
     public function getLienDt()
     {
@@ -151,8 +151,8 @@ class MicrobiltCriminalReportStructLienHolderInfo_Type extends MicrobiltCriminal
     }
     /**
      * Set LienDt value
-     * @param date $_lienDt the LienDt
-     * @return date
+     * @param string $_lienDt the LienDt
+     * @return string
      */
     public function setLienDt($_lienDt)
     {

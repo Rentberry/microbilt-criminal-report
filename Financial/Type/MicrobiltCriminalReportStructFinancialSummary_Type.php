@@ -40,7 +40,7 @@ class MicrobiltCriminalReportStructFinancialSummary_Type extends MicrobiltCrimin
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $SummaryDt;
     /**
@@ -56,7 +56,7 @@ class MicrobiltCriminalReportStructFinancialSummary_Type extends MicrobiltCrimin
      * Meta informations extracted from the WSDL
      * - maxOccurs : unbounded
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $DtLastUpdated;
     /**
@@ -98,9 +98,9 @@ class MicrobiltCriminalReportStructFinancialSummary_Type extends MicrobiltCrimin
      * @see parent::__construct()
      * @param MicrobiltCriminalReportStructCurrencyAmount $_salesAmt
      * @param MicrobiltCriminalReportStructCurrencyAmount $_netIncomeAmt
-     * @param date $_summaryDt
+     * @param string $_summaryDt
      * @param MicrobiltCriminalReportStructMessage_Type $_message
-     * @param date $_dtLastUpdated
+     * @param string $_dtLastUpdated
      * @param MicrobiltCriminalReportStructSummaryItem $_summaryItem
      * @param MicrobiltCriminalReportStructDateRange_Type $_dateRange
      * @param MicrobiltCriminalReportStructSummaryCharacteristics $_summaryCharacteristics
@@ -148,7 +148,7 @@ class MicrobiltCriminalReportStructFinancialSummary_Type extends MicrobiltCrimin
     }
     /**
      * Get SummaryDt value
-     * @return date|null
+     * @return string|null
      */
     public function getSummaryDt()
     {
@@ -156,8 +156,8 @@ class MicrobiltCriminalReportStructFinancialSummary_Type extends MicrobiltCrimin
     }
     /**
      * Set SummaryDt value
-     * @param date $_summaryDt the SummaryDt
-     * @return date
+     * @param string $_summaryDt the SummaryDt
+     * @return string
      */
     public function setSummaryDt($_summaryDt)
     {
@@ -182,7 +182,7 @@ class MicrobiltCriminalReportStructFinancialSummary_Type extends MicrobiltCrimin
     }
     /**
      * Get DtLastUpdated value
-     * @return date|null
+     * @return string|null
      */
     public function getDtLastUpdated()
     {
@@ -190,8 +190,8 @@ class MicrobiltCriminalReportStructFinancialSummary_Type extends MicrobiltCrimin
     }
     /**
      * Set DtLastUpdated value
-     * @param date $_dtLastUpdated the DtLastUpdated
-     * @return date
+     * @param string $_dtLastUpdated the DtLastUpdated
+     * @return string
      */
     public function setDtLastUpdated($_dtLastUpdated)
     {

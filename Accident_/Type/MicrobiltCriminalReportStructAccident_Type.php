@@ -24,7 +24,7 @@ class MicrobiltCriminalReportStructAccident_Type extends MicrobiltCriminalReport
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $AccidentDt;
     /**
@@ -64,7 +64,7 @@ class MicrobiltCriminalReportStructAccident_Type extends MicrobiltCriminalReport
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $FilingDt;
     /**
@@ -182,12 +182,12 @@ class MicrobiltCriminalReportStructAccident_Type extends MicrobiltCriminalReport
     /**
      * Constructor method for Accident_Type
      * @see parent::__construct()
-     * @param date $_accidentDt
+     * @param string $_accidentDt
      * @param MicrobiltCriminalReportStructAccidentLocation_Type $_accidentLocation
      * @param MicrobiltCriminalReportStructPostAddr_Type $_location
      * @param string $_damage
      * @param MicrobiltCriminalReportStructOrgInfo_Type $_agency
-     * @param date $_filingDt
+     * @param string $_filingDt
      * @param string $_typeFRCase
      * @param string $_action
      * @param MicrobiltCriminalReportStructAccidentTime_Type $_accidentTime
@@ -210,7 +210,7 @@ class MicrobiltCriminalReportStructAccident_Type extends MicrobiltCriminalReport
     }
     /**
      * Get AccidentDt value
-     * @return date|null
+     * @return string|null
      */
     public function getAccidentDt()
     {
@@ -218,8 +218,8 @@ class MicrobiltCriminalReportStructAccident_Type extends MicrobiltCriminalReport
     }
     /**
      * Set AccidentDt value
-     * @param date $_accidentDt the AccidentDt
-     * @return date
+     * @param string $_accidentDt the AccidentDt
+     * @return string
      */
     public function setAccidentDt($_accidentDt)
     {
@@ -295,7 +295,7 @@ class MicrobiltCriminalReportStructAccident_Type extends MicrobiltCriminalReport
     }
     /**
      * Get FilingDt value
-     * @return date|null
+     * @return string|null
      */
     public function getFilingDt()
     {
@@ -303,8 +303,8 @@ class MicrobiltCriminalReportStructAccident_Type extends MicrobiltCriminalReport
     }
     /**
      * Set FilingDt value
-     * @param date $_filingDt the FilingDt
-     * @return date
+     * @param string $_filingDt the FilingDt
+     * @return string
      */
     public function setFilingDt($_filingDt)
     {

@@ -32,7 +32,7 @@ class MicrobiltCriminalReportStructRegistrationDetails_Type extends MicrobiltCri
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $RegDt;
     /**
@@ -79,7 +79,7 @@ class MicrobiltCriminalReportStructRegistrationDetails_Type extends MicrobiltCri
      * Constructor method for RegistrationDetails_Type
      * @see parent::__construct()
      * @param string $_regType
-     * @param date $_regDt
+     * @param string $_regDt
      * @param string $_dtType
      * @param MicrobiltCriminalReportStructPostAddr_Type $_postAddr
      * @param MicrobiltCriminalReportStructCodeDescription_Type $_regStatusCode
@@ -110,7 +110,7 @@ class MicrobiltCriminalReportStructRegistrationDetails_Type extends MicrobiltCri
     }
     /**
      * Get RegDt value
-     * @return date|null
+     * @return string|null
      */
     public function getRegDt()
     {
@@ -118,8 +118,8 @@ class MicrobiltCriminalReportStructRegistrationDetails_Type extends MicrobiltCri
     }
     /**
      * Set RegDt value
-     * @param date $_regDt the RegDt
-     * @return date
+     * @param string $_regDt the RegDt
+     * @return string
      */
     public function setRegDt($_regDt)
     {

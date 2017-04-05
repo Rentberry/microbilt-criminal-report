@@ -24,7 +24,7 @@ class MicrobiltCriminalReportStructStatus_Type extends MicrobiltCriminalReportWs
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 1
-     * @var long
+     * @var int
      */
     public $StatusCode;
     /**
@@ -62,7 +62,7 @@ class MicrobiltCriminalReportStructStatus_Type extends MicrobiltCriminalReportWs
     /**
      * Constructor method for Status_Type
      * @see parent::__construct()
-     * @param long $_statusCode
+     * @param int $_statusCode
      * @param MicrobiltCriminalReportEnumSeverity_Type $_severity
      * @param string $_serverStatusCode
      * @param string $_statusDesc
@@ -75,7 +75,7 @@ class MicrobiltCriminalReportStructStatus_Type extends MicrobiltCriminalReportWs
     }
     /**
      * Get StatusCode value
-     * @return long
+     * @return int
      */
     public function getStatusCode()
     {
@@ -83,8 +83,8 @@ class MicrobiltCriminalReportStructStatus_Type extends MicrobiltCriminalReportWs
     }
     /**
      * Set StatusCode value
-     * @param long $_statusCode the StatusCode
-     * @return long
+     * @param int $_statusCode the StatusCode
+     * @return int
      */
     public function setStatusCode($_statusCode)
     {

@@ -56,7 +56,7 @@ class MicrobiltCriminalReportStructRetailItemDetail_Type extends MicrobiltCrimin
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $CheckDt;
     /**
@@ -80,7 +80,7 @@ class MicrobiltCriminalReportStructRetailItemDetail_Type extends MicrobiltCrimin
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $PaidDt;
     /**
@@ -114,10 +114,10 @@ class MicrobiltCriminalReportStructRetailItemDetail_Type extends MicrobiltCrimin
      * @param string $_accountNum
      * @param MicrobiltCriminalReportStructDriversLicense_Type $_driversLicense
      * @param string $_merchantName
-     * @param date $_checkDt
+     * @param string $_checkDt
      * @param string $_checkNum
      * @param MicrobiltCriminalReportStructCurrencyAmount $_checkAmt
-     * @param date $_paidDt
+     * @param string $_paidDt
      * @param MicrobiltCriminalReportStructCodeDescription_Type $_transStatus
      * @param string $_institutionName
      * @param string $_posOrNegInd
@@ -197,7 +197,7 @@ class MicrobiltCriminalReportStructRetailItemDetail_Type extends MicrobiltCrimin
     }
     /**
      * Get CheckDt value
-     * @return date|null
+     * @return string|null
      */
     public function getCheckDt()
     {
@@ -205,8 +205,8 @@ class MicrobiltCriminalReportStructRetailItemDetail_Type extends MicrobiltCrimin
     }
     /**
      * Set CheckDt value
-     * @param date $_checkDt the CheckDt
-     * @return date
+     * @param string $_checkDt the CheckDt
+     * @return string
      */
     public function setCheckDt($_checkDt)
     {
@@ -248,7 +248,7 @@ class MicrobiltCriminalReportStructRetailItemDetail_Type extends MicrobiltCrimin
     }
     /**
      * Get PaidDt value
-     * @return date|null
+     * @return string|null
      */
     public function getPaidDt()
     {
@@ -256,8 +256,8 @@ class MicrobiltCriminalReportStructRetailItemDetail_Type extends MicrobiltCrimin
     }
     /**
      * Set PaidDt value
-     * @param date $_paidDt the PaidDt
-     * @return date
+     * @param string $_paidDt the PaidDt
+     * @return string
      */
     public function setPaidDt($_paidDt)
     {

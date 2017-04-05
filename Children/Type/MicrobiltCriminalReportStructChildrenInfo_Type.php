@@ -24,7 +24,7 @@ class MicrobiltCriminalReportStructChildrenInfo_Type extends MicrobiltCriminalRe
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $NumOfChildren;
     /**
@@ -46,7 +46,7 @@ class MicrobiltCriminalReportStructChildrenInfo_Type extends MicrobiltCriminalRe
     /**
      * Constructor method for ChildrenInfo_Type
      * @see parent::__construct()
-     * @param long $_numOfChildren
+     * @param int $_numOfChildren
      * @param MicrobiltCriminalReportStructPersonInfo_Type $_personInfo
      * @param MicrobiltCriminalReportStructMessage_Type $_message
      * @return MicrobiltCriminalReportStructChildrenInfo_Type
@@ -57,7 +57,7 @@ class MicrobiltCriminalReportStructChildrenInfo_Type extends MicrobiltCriminalRe
     }
     /**
      * Get NumOfChildren value
-     * @return long|null
+     * @return int|null
      */
     public function getNumOfChildren()
     {
@@ -65,8 +65,8 @@ class MicrobiltCriminalReportStructChildrenInfo_Type extends MicrobiltCriminalRe
     }
     /**
      * Set NumOfChildren value
-     * @param long $_numOfChildren the NumOfChildren
-     * @return long
+     * @param int $_numOfChildren the NumOfChildren
+     * @return int
      */
     public function setNumOfChildren($_numOfChildren)
     {

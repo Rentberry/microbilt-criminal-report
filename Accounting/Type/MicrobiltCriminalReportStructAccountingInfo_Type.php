@@ -48,7 +48,7 @@ class MicrobiltCriminalReportStructAccountingInfo_Type extends MicrobiltCriminal
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $FilingDt;
     /**
@@ -65,7 +65,7 @@ class MicrobiltCriminalReportStructAccountingInfo_Type extends MicrobiltCriminal
      * @param string $_msgClass
      * @param MicrobiltCriminalReportStructPeriodInfo_Type $_accountingPeriodInfo
      * @param MicrobiltCriminalReportStructElementsInfo_Type $_accountingElementsInfo
-     * @param date $_filingDt
+     * @param string $_filingDt
      * @param string $_filingType
      * @return MicrobiltCriminalReportStructAccountingInfo_Type
      */
@@ -126,7 +126,7 @@ class MicrobiltCriminalReportStructAccountingInfo_Type extends MicrobiltCriminal
     }
     /**
      * Get FilingDt value
-     * @return date|null
+     * @return string|null
      */
     public function getFilingDt()
     {
@@ -134,8 +134,8 @@ class MicrobiltCriminalReportStructAccountingInfo_Type extends MicrobiltCriminal
     }
     /**
      * Set FilingDt value
-     * @param date $_filingDt the FilingDt
-     * @return date
+     * @param string $_filingDt the FilingDt
+     * @return string
      */
     public function setFilingDt($_filingDt)
     {

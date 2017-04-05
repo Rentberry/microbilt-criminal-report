@@ -104,7 +104,7 @@ class MicrobiltCriminalReportStructDriversLicense_Type extends MicrobiltCriminal
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $IssuedDt;
     /**
@@ -112,7 +112,7 @@ class MicrobiltCriminalReportStructDriversLicense_Type extends MicrobiltCriminal
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ExpirationDt;
     /**
@@ -136,8 +136,8 @@ class MicrobiltCriminalReportStructDriversLicense_Type extends MicrobiltCriminal
      * @param string $_cDLStatus
      * @param MicrobiltCriminalReportStructOption_Type $_endorsements
      * @param MicrobiltCriminalReportStructOption_Type $_restrictions
-     * @param date $_issuedDt
-     * @param date $_expirationDt
+     * @param string $_issuedDt
+     * @param string $_expirationDt
      * @param MicrobiltCriminalReportStructMessage_Type $_message
      * @return MicrobiltCriminalReportStructDriversLicense_Type
      */
@@ -317,7 +317,7 @@ class MicrobiltCriminalReportStructDriversLicense_Type extends MicrobiltCriminal
     }
     /**
      * Get IssuedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getIssuedDt()
     {
@@ -325,8 +325,8 @@ class MicrobiltCriminalReportStructDriversLicense_Type extends MicrobiltCriminal
     }
     /**
      * Set IssuedDt value
-     * @param date $_issuedDt the IssuedDt
-     * @return date
+     * @param string $_issuedDt the IssuedDt
+     * @return string
      */
     public function setIssuedDt($_issuedDt)
     {
@@ -334,7 +334,7 @@ class MicrobiltCriminalReportStructDriversLicense_Type extends MicrobiltCriminal
     }
     /**
      * Get ExpirationDt value
-     * @return date|null
+     * @return string|null
      */
     public function getExpirationDt()
     {
@@ -342,8 +342,8 @@ class MicrobiltCriminalReportStructDriversLicense_Type extends MicrobiltCriminal
     }
     /**
      * Set ExpirationDt value
-     * @param date $_expirationDt the ExpirationDt
-     * @return date
+     * @param string $_expirationDt the ExpirationDt
+     * @return string
      */
     public function setExpirationDt($_expirationDt)
     {

@@ -24,7 +24,7 @@ class MicrobiltCriminalReportStructIncarceration_Type extends MicrobiltCriminalR
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $IncarcerationDt;
     /**
@@ -48,7 +48,7 @@ class MicrobiltCriminalReportStructIncarceration_Type extends MicrobiltCriminalR
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $TentativeReleaseDate;
     /**
@@ -56,7 +56,7 @@ class MicrobiltCriminalReportStructIncarceration_Type extends MicrobiltCriminalR
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ReleaseDt;
     /**
@@ -70,11 +70,11 @@ class MicrobiltCriminalReportStructIncarceration_Type extends MicrobiltCriminalR
     /**
      * Constructor method for Incarceration_Type
      * @see parent::__construct()
-     * @param date $_incarcerationDt
+     * @param string $_incarcerationDt
      * @param MicrobiltCriminalReportStructOrgInfo_Type $_agency
      * @param MicrobiltCriminalReportStructSentenceLength_Type $_sentenceLength
-     * @param date $_tentativeReleaseDate
-     * @param date $_releaseDt
+     * @param string $_tentativeReleaseDate
+     * @param string $_releaseDt
      * @param MicrobiltCriminalReportStructMessage_Type $_message
      * @return MicrobiltCriminalReportStructIncarceration_Type
      */
@@ -84,7 +84,7 @@ class MicrobiltCriminalReportStructIncarceration_Type extends MicrobiltCriminalR
     }
     /**
      * Get IncarcerationDt value
-     * @return date|null
+     * @return string|null
      */
     public function getIncarcerationDt()
     {
@@ -92,8 +92,8 @@ class MicrobiltCriminalReportStructIncarceration_Type extends MicrobiltCriminalR
     }
     /**
      * Set IncarcerationDt value
-     * @param date $_incarcerationDt the IncarcerationDt
-     * @return date
+     * @param string $_incarcerationDt the IncarcerationDt
+     * @return string
      */
     public function setIncarcerationDt($_incarcerationDt)
     {
@@ -135,7 +135,7 @@ class MicrobiltCriminalReportStructIncarceration_Type extends MicrobiltCriminalR
     }
     /**
      * Get TentativeReleaseDate value
-     * @return date|null
+     * @return string|null
      */
     public function getTentativeReleaseDate()
     {
@@ -143,8 +143,8 @@ class MicrobiltCriminalReportStructIncarceration_Type extends MicrobiltCriminalR
     }
     /**
      * Set TentativeReleaseDate value
-     * @param date $_tentativeReleaseDate the TentativeReleaseDate
-     * @return date
+     * @param string $_tentativeReleaseDate the TentativeReleaseDate
+     * @return string
      */
     public function setTentativeReleaseDate($_tentativeReleaseDate)
     {
@@ -152,7 +152,7 @@ class MicrobiltCriminalReportStructIncarceration_Type extends MicrobiltCriminalR
     }
     /**
      * Get ReleaseDt value
-     * @return date|null
+     * @return string|null
      */
     public function getReleaseDt()
     {
@@ -160,8 +160,8 @@ class MicrobiltCriminalReportStructIncarceration_Type extends MicrobiltCriminalR
     }
     /**
      * Set ReleaseDt value
-     * @param date $_releaseDt the ReleaseDt
-     * @return date
+     * @param string $_releaseDt the ReleaseDt
+     * @return string
      */
     public function setReleaseDt($_releaseDt)
     {

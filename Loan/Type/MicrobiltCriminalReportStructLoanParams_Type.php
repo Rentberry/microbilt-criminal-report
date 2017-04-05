@@ -40,7 +40,7 @@ class MicrobiltCriminalReportStructLoanParams_Type extends MicrobiltCriminalRepo
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $DueDate;
     /**
@@ -64,7 +64,7 @@ class MicrobiltCriminalReportStructLoanParams_Type extends MicrobiltCriminalRepo
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $RolloverNumber;
     /**
@@ -72,7 +72,7 @@ class MicrobiltCriminalReportStructLoanParams_Type extends MicrobiltCriminalRepo
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $ConsecutiveLoanNumber;
     /**
@@ -80,7 +80,7 @@ class MicrobiltCriminalReportStructLoanParams_Type extends MicrobiltCriminalRepo
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $LastLoanEndDt;
     /**
@@ -96,7 +96,7 @@ class MicrobiltCriminalReportStructLoanParams_Type extends MicrobiltCriminalRepo
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $LoanDuration;
     /**
@@ -112,7 +112,7 @@ class MicrobiltCriminalReportStructLoanParams_Type extends MicrobiltCriminalRepo
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $DaysOpen;
     /**
@@ -168,7 +168,7 @@ class MicrobiltCriminalReportStructLoanParams_Type extends MicrobiltCriminalRepo
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $LoansRemaining;
     /**
@@ -176,7 +176,7 @@ class MicrobiltCriminalReportStructLoanParams_Type extends MicrobiltCriminalRepo
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $CoolOffDaysRemaining;
     /**
@@ -192,7 +192,7 @@ class MicrobiltCriminalReportStructLoanParams_Type extends MicrobiltCriminalRepo
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $DaysBeforeCoolingOffPeriod;
     /**
@@ -200,7 +200,7 @@ class MicrobiltCriminalReportStructLoanParams_Type extends MicrobiltCriminalRepo
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $DaysBefore90DayLimit;
     /**
@@ -208,7 +208,7 @@ class MicrobiltCriminalReportStructLoanParams_Type extends MicrobiltCriminalRepo
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $EligibleDt;
     /**
@@ -232,28 +232,28 @@ class MicrobiltCriminalReportStructLoanParams_Type extends MicrobiltCriminalRepo
      * @see parent::__construct()
      * @param MicrobiltCriminalReportStructCurrencyAmount $_requestedAmt
      * @param MicrobiltCriminalReportStructCurrencyAmount $_feeAmt
-     * @param date $_dueDate
+     * @param string $_dueDate
      * @param MicrobiltCriminalReportEnumBoolean $_renewal
      * @param MicrobiltCriminalReportEnumBoolean $_rollover
-     * @param long $_rolloverNumber
-     * @param long $_consecutiveLoanNumber
-     * @param date $_lastLoanEndDt
+     * @param int $_rolloverNumber
+     * @param int $_consecutiveLoanNumber
+     * @param string $_lastLoanEndDt
      * @param string $_loanAmountFlag
-     * @param long $_loanDuration
+     * @param int $_loanDuration
      * @param string $_genericRequestField
-     * @param long $_daysOpen
+     * @param int $_daysOpen
      * @param string $_loanType
      * @param MicrobiltCriminalReportStructCurrencyAmount $_alternativeLoanAmt
      * @param MicrobiltCriminalReportStructCurrencyAmount $_approvalAmt
      * @param string $_name
      * @param string $_error
      * @param string $_debtToIncome
-     * @param long $_loansRemaining
-     * @param long $_coolOffDaysRemaining
+     * @param int $_loansRemaining
+     * @param int $_coolOffDaysRemaining
      * @param string $_coolOffPeriodRemaining
-     * @param long $_daysBeforeCoolingOffPeriod
-     * @param long $_daysBefore90DayLimit
-     * @param date $_eligibleDt
+     * @param int $_daysBeforeCoolingOffPeriod
+     * @param int $_daysBefore90DayLimit
+     * @param string $_eligibleDt
      * @param string $_stateProv
      * @param MicrobiltCriminalReportStructMessage_Type $_message
      * @return MicrobiltCriminalReportStructLoanParams_Type
@@ -298,7 +298,7 @@ class MicrobiltCriminalReportStructLoanParams_Type extends MicrobiltCriminalRepo
     }
     /**
      * Get DueDate value
-     * @return date|null
+     * @return string|null
      */
     public function getDueDate()
     {
@@ -306,8 +306,8 @@ class MicrobiltCriminalReportStructLoanParams_Type extends MicrobiltCriminalRepo
     }
     /**
      * Set DueDate value
-     * @param date $_dueDate the DueDate
-     * @return date
+     * @param string $_dueDate the DueDate
+     * @return string
      */
     public function setDueDate($_dueDate)
     {
@@ -359,7 +359,7 @@ class MicrobiltCriminalReportStructLoanParams_Type extends MicrobiltCriminalRepo
     }
     /**
      * Get RolloverNumber value
-     * @return long|null
+     * @return int|null
      */
     public function getRolloverNumber()
     {
@@ -367,8 +367,8 @@ class MicrobiltCriminalReportStructLoanParams_Type extends MicrobiltCriminalRepo
     }
     /**
      * Set RolloverNumber value
-     * @param long $_rolloverNumber the RolloverNumber
-     * @return long
+     * @param int $_rolloverNumber the RolloverNumber
+     * @return int
      */
     public function setRolloverNumber($_rolloverNumber)
     {
@@ -376,7 +376,7 @@ class MicrobiltCriminalReportStructLoanParams_Type extends MicrobiltCriminalRepo
     }
     /**
      * Get ConsecutiveLoanNumber value
-     * @return long|null
+     * @return int|null
      */
     public function getConsecutiveLoanNumber()
     {
@@ -384,8 +384,8 @@ class MicrobiltCriminalReportStructLoanParams_Type extends MicrobiltCriminalRepo
     }
     /**
      * Set ConsecutiveLoanNumber value
-     * @param long $_consecutiveLoanNumber the ConsecutiveLoanNumber
-     * @return long
+     * @param int $_consecutiveLoanNumber the ConsecutiveLoanNumber
+     * @return int
      */
     public function setConsecutiveLoanNumber($_consecutiveLoanNumber)
     {
@@ -393,7 +393,7 @@ class MicrobiltCriminalReportStructLoanParams_Type extends MicrobiltCriminalRepo
     }
     /**
      * Get LastLoanEndDt value
-     * @return date|null
+     * @return string|null
      */
     public function getLastLoanEndDt()
     {
@@ -401,8 +401,8 @@ class MicrobiltCriminalReportStructLoanParams_Type extends MicrobiltCriminalRepo
     }
     /**
      * Set LastLoanEndDt value
-     * @param date $_lastLoanEndDt the LastLoanEndDt
-     * @return date
+     * @param string $_lastLoanEndDt the LastLoanEndDt
+     * @return string
      */
     public function setLastLoanEndDt($_lastLoanEndDt)
     {
@@ -427,7 +427,7 @@ class MicrobiltCriminalReportStructLoanParams_Type extends MicrobiltCriminalRepo
     }
     /**
      * Get LoanDuration value
-     * @return long|null
+     * @return int|null
      */
     public function getLoanDuration()
     {
@@ -435,8 +435,8 @@ class MicrobiltCriminalReportStructLoanParams_Type extends MicrobiltCriminalRepo
     }
     /**
      * Set LoanDuration value
-     * @param long $_loanDuration the LoanDuration
-     * @return long
+     * @param int $_loanDuration the LoanDuration
+     * @return int
      */
     public function setLoanDuration($_loanDuration)
     {
@@ -461,7 +461,7 @@ class MicrobiltCriminalReportStructLoanParams_Type extends MicrobiltCriminalRepo
     }
     /**
      * Get DaysOpen value
-     * @return long|null
+     * @return int|null
      */
     public function getDaysOpen()
     {
@@ -469,8 +469,8 @@ class MicrobiltCriminalReportStructLoanParams_Type extends MicrobiltCriminalRepo
     }
     /**
      * Set DaysOpen value
-     * @param long $_daysOpen the DaysOpen
-     * @return long
+     * @param int $_daysOpen the DaysOpen
+     * @return int
      */
     public function setDaysOpen($_daysOpen)
     {
@@ -580,7 +580,7 @@ class MicrobiltCriminalReportStructLoanParams_Type extends MicrobiltCriminalRepo
     }
     /**
      * Get LoansRemaining value
-     * @return long|null
+     * @return int|null
      */
     public function getLoansRemaining()
     {
@@ -588,8 +588,8 @@ class MicrobiltCriminalReportStructLoanParams_Type extends MicrobiltCriminalRepo
     }
     /**
      * Set LoansRemaining value
-     * @param long $_loansRemaining the LoansRemaining
-     * @return long
+     * @param int $_loansRemaining the LoansRemaining
+     * @return int
      */
     public function setLoansRemaining($_loansRemaining)
     {
@@ -597,7 +597,7 @@ class MicrobiltCriminalReportStructLoanParams_Type extends MicrobiltCriminalRepo
     }
     /**
      * Get CoolOffDaysRemaining value
-     * @return long|null
+     * @return int|null
      */
     public function getCoolOffDaysRemaining()
     {
@@ -605,8 +605,8 @@ class MicrobiltCriminalReportStructLoanParams_Type extends MicrobiltCriminalRepo
     }
     /**
      * Set CoolOffDaysRemaining value
-     * @param long $_coolOffDaysRemaining the CoolOffDaysRemaining
-     * @return long
+     * @param int $_coolOffDaysRemaining the CoolOffDaysRemaining
+     * @return int
      */
     public function setCoolOffDaysRemaining($_coolOffDaysRemaining)
     {
@@ -631,7 +631,7 @@ class MicrobiltCriminalReportStructLoanParams_Type extends MicrobiltCriminalRepo
     }
     /**
      * Get DaysBeforeCoolingOffPeriod value
-     * @return long|null
+     * @return int|null
      */
     public function getDaysBeforeCoolingOffPeriod()
     {
@@ -639,8 +639,8 @@ class MicrobiltCriminalReportStructLoanParams_Type extends MicrobiltCriminalRepo
     }
     /**
      * Set DaysBeforeCoolingOffPeriod value
-     * @param long $_daysBeforeCoolingOffPeriod the DaysBeforeCoolingOffPeriod
-     * @return long
+     * @param int $_daysBeforeCoolingOffPeriod the DaysBeforeCoolingOffPeriod
+     * @return int
      */
     public function setDaysBeforeCoolingOffPeriod($_daysBeforeCoolingOffPeriod)
     {
@@ -648,7 +648,7 @@ class MicrobiltCriminalReportStructLoanParams_Type extends MicrobiltCriminalRepo
     }
     /**
      * Get DaysBefore90DayLimit value
-     * @return long|null
+     * @return int|null
      */
     public function getDaysBefore90DayLimit()
     {
@@ -656,8 +656,8 @@ class MicrobiltCriminalReportStructLoanParams_Type extends MicrobiltCriminalRepo
     }
     /**
      * Set DaysBefore90DayLimit value
-     * @param long $_daysBefore90DayLimit the DaysBefore90DayLimit
-     * @return long
+     * @param int $_daysBefore90DayLimit the DaysBefore90DayLimit
+     * @return int
      */
     public function setDaysBefore90DayLimit($_daysBefore90DayLimit)
     {
@@ -665,7 +665,7 @@ class MicrobiltCriminalReportStructLoanParams_Type extends MicrobiltCriminalRepo
     }
     /**
      * Get EligibleDt value
-     * @return date|null
+     * @return string|null
      */
     public function getEligibleDt()
     {
@@ -673,8 +673,8 @@ class MicrobiltCriminalReportStructLoanParams_Type extends MicrobiltCriminalRepo
     }
     /**
      * Set EligibleDt value
-     * @param date $_eligibleDt the EligibleDt
-     * @return date
+     * @param string $_eligibleDt the EligibleDt
+     * @return string
      */
     public function setEligibleDt($_eligibleDt)
     {

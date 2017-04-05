@@ -24,7 +24,7 @@ class MicrobiltCriminalReportStructAmtItems_Type extends MicrobiltCriminalReport
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 1
-     * @var long
+     * @var int
      */
     public $PeriodIndicator;
     /**
@@ -56,7 +56,7 @@ class MicrobiltCriminalReportStructAmtItems_Type extends MicrobiltCriminalReport
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var decimal
+     * @var float
      */
     public $PercentageRatio;
     /**
@@ -70,11 +70,11 @@ class MicrobiltCriminalReportStructAmtItems_Type extends MicrobiltCriminalReport
     /**
      * Constructor method for AmtItems_Type
      * @see parent::__construct()
-     * @param long $_periodIndicator
+     * @param int $_periodIndicator
      * @param string $_format
      * @param string $_priority
      * @param MicrobiltCriminalReportStructCurrencyAmount $_elementAmt
-     * @param decimal $_percentageRatio
+     * @param float $_percentageRatio
      * @param MicrobiltCriminalReportStructMessage_Type $_message
      * @return MicrobiltCriminalReportStructAmtItems_Type
      */
@@ -84,7 +84,7 @@ class MicrobiltCriminalReportStructAmtItems_Type extends MicrobiltCriminalReport
     }
     /**
      * Get PeriodIndicator value
-     * @return long
+     * @return int
      */
     public function getPeriodIndicator()
     {
@@ -92,8 +92,8 @@ class MicrobiltCriminalReportStructAmtItems_Type extends MicrobiltCriminalReport
     }
     /**
      * Set PeriodIndicator value
-     * @param long $_periodIndicator the PeriodIndicator
-     * @return long
+     * @param int $_periodIndicator the PeriodIndicator
+     * @return int
      */
     public function setPeriodIndicator($_periodIndicator)
     {
@@ -152,7 +152,7 @@ class MicrobiltCriminalReportStructAmtItems_Type extends MicrobiltCriminalReport
     }
     /**
      * Get PercentageRatio value
-     * @return decimal|null
+     * @return float|null
      */
     public function getPercentageRatio()
     {
@@ -160,8 +160,8 @@ class MicrobiltCriminalReportStructAmtItems_Type extends MicrobiltCriminalReport
     }
     /**
      * Set PercentageRatio value
-     * @param decimal $_percentageRatio the PercentageRatio
-     * @return decimal
+     * @param float $_percentageRatio the PercentageRatio
+     * @return float
      */
     public function setPercentageRatio($_percentageRatio)
     {

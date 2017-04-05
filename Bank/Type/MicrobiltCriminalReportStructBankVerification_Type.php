@@ -56,7 +56,7 @@ class MicrobiltCriminalReportStructBankVerification_Type extends MicrobiltCrimin
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $DtFirstSeen;
     /**
@@ -64,7 +64,7 @@ class MicrobiltCriminalReportStructBankVerification_Type extends MicrobiltCrimin
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $DtLastSeen;
     /**
@@ -80,7 +80,7 @@ class MicrobiltCriminalReportStructBankVerification_Type extends MicrobiltCrimin
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $NACHACodeDt;
     /**
@@ -218,10 +218,10 @@ class MicrobiltCriminalReportStructBankVerification_Type extends MicrobiltCrimin
      * @param string $_accountNum
      * @param string $_acctStatus
      * @param string $_acctTimesSeen
-     * @param date $_dtFirstSeen
-     * @param date $_dtLastSeen
+     * @param string $_dtFirstSeen
+     * @param string $_dtLastSeen
      * @param string $_nACHACode
-     * @param date $_nACHACodeDt
+     * @param string $_nACHACodeDt
      * @param string $_sourceType
      * @param string $_transType
      * @param string $_aCHStatus
@@ -314,7 +314,7 @@ class MicrobiltCriminalReportStructBankVerification_Type extends MicrobiltCrimin
     }
     /**
      * Get DtFirstSeen value
-     * @return date|null
+     * @return string|null
      */
     public function getDtFirstSeen()
     {
@@ -322,8 +322,8 @@ class MicrobiltCriminalReportStructBankVerification_Type extends MicrobiltCrimin
     }
     /**
      * Set DtFirstSeen value
-     * @param date $_dtFirstSeen the DtFirstSeen
-     * @return date
+     * @param string $_dtFirstSeen the DtFirstSeen
+     * @return string
      */
     public function setDtFirstSeen($_dtFirstSeen)
     {
@@ -331,7 +331,7 @@ class MicrobiltCriminalReportStructBankVerification_Type extends MicrobiltCrimin
     }
     /**
      * Get DtLastSeen value
-     * @return date|null
+     * @return string|null
      */
     public function getDtLastSeen()
     {
@@ -339,8 +339,8 @@ class MicrobiltCriminalReportStructBankVerification_Type extends MicrobiltCrimin
     }
     /**
      * Set DtLastSeen value
-     * @param date $_dtLastSeen the DtLastSeen
-     * @return date
+     * @param string $_dtLastSeen the DtLastSeen
+     * @return string
      */
     public function setDtLastSeen($_dtLastSeen)
     {
@@ -365,7 +365,7 @@ class MicrobiltCriminalReportStructBankVerification_Type extends MicrobiltCrimin
     }
     /**
      * Get NACHACodeDt value
-     * @return date|null
+     * @return string|null
      */
     public function getNACHACodeDt()
     {
@@ -373,8 +373,8 @@ class MicrobiltCriminalReportStructBankVerification_Type extends MicrobiltCrimin
     }
     /**
      * Set NACHACodeDt value
-     * @param date $_nACHACodeDt the NACHACodeDt
-     * @return date
+     * @param string $_nACHACodeDt the NACHACodeDt
+     * @return string
      */
     public function setNACHACodeDt($_nACHACodeDt)
     {

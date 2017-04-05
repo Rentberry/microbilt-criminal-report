@@ -40,7 +40,7 @@ class MicrobiltCriminalReportStructChargeOff_Type extends MicrobiltCriminalRepor
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $RecoveryDt;
     /**
@@ -72,7 +72,7 @@ class MicrobiltCriminalReportStructChargeOff_Type extends MicrobiltCriminalRepor
      * @see parent::__construct()
      * @param MicrobiltCriminalReportStructOrgInfo_Type $_orgInfo
      * @param string $_recoveryType
-     * @param date $_recoveryDt
+     * @param string $_recoveryDt
      * @param MicrobiltCriminalReportStructPersonInfo_Type $_personInfo
      * @param string $_refNum
      * @param MicrobiltCriminalReportStructPmtAgreement_Type $_pmtAgreement
@@ -118,7 +118,7 @@ class MicrobiltCriminalReportStructChargeOff_Type extends MicrobiltCriminalRepor
     }
     /**
      * Get RecoveryDt value
-     * @return date|null
+     * @return string|null
      */
     public function getRecoveryDt()
     {
@@ -126,8 +126,8 @@ class MicrobiltCriminalReportStructChargeOff_Type extends MicrobiltCriminalRepor
     }
     /**
      * Set RecoveryDt value
-     * @param date $_recoveryDt the RecoveryDt
-     * @return date
+     * @param string $_recoveryDt the RecoveryDt
+     * @return string
      */
     public function setRecoveryDt($_recoveryDt)
     {

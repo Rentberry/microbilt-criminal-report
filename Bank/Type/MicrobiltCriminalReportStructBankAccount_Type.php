@@ -56,7 +56,7 @@ class MicrobiltCriminalReportStructBankAccount_Type extends MicrobiltCriminalRep
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $OpenedDt;
     /**
@@ -114,7 +114,7 @@ class MicrobiltCriminalReportStructBankAccount_Type extends MicrobiltCriminalRep
      * @param string $_routingNumber
      * @param string $_accountNum
      * @param string $_typeOfBankAcct
-     * @param date $_openedDt
+     * @param string $_openedDt
      * @param string $_acctStatus
      * @param string $_ownershipType
      * @param MicrobiltCriminalReportStructBankStatement_Type $_bankStatement
@@ -197,7 +197,7 @@ class MicrobiltCriminalReportStructBankAccount_Type extends MicrobiltCriminalRep
     }
     /**
      * Get OpenedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getOpenedDt()
     {
@@ -205,8 +205,8 @@ class MicrobiltCriminalReportStructBankAccount_Type extends MicrobiltCriminalRep
     }
     /**
      * Set OpenedDt value
-     * @param date $_openedDt the OpenedDt
-     * @return date
+     * @param string $_openedDt the OpenedDt
+     * @return string
      */
     public function setOpenedDt($_openedDt)
     {

@@ -48,7 +48,7 @@ class MicrobiltCriminalReportStructPersonInfo_Type extends MicrobiltCriminalRepo
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $BirthDt;
     /**
@@ -72,7 +72,7 @@ class MicrobiltCriminalReportStructPersonInfo_Type extends MicrobiltCriminalRepo
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $DeathDt;
     /**
@@ -272,7 +272,7 @@ class MicrobiltCriminalReportStructPersonInfo_Type extends MicrobiltCriminalRepo
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var decimal
+     * @var float
      */
     public $OwnershipPercentage;
     /**
@@ -281,10 +281,10 @@ class MicrobiltCriminalReportStructPersonInfo_Type extends MicrobiltCriminalRepo
      * @param MicrobiltCriminalReportStructPersonName_Type $_personName
      * @param MicrobiltCriminalReportStructContactInfo_Type $_contactInfo
      * @param MicrobiltCriminalReportStructTINInfo_Type $_tINInfo
-     * @param date $_birthDt
+     * @param string $_birthDt
      * @param string $_birthState
      * @param string $_birthCountry
-     * @param date $_deathDt
+     * @param string $_deathDt
      * @param MicrobiltCriminalReportStructDriversLicense_Type $_driversLicense
      * @param string $_mothersMaidenName
      * @param MicrobiltCriminalReportStructSpouseInfo_Type $_spouseInfo
@@ -309,7 +309,7 @@ class MicrobiltCriminalReportStructPersonInfo_Type extends MicrobiltCriminalRepo
      * @param MicrobiltCriminalReportStructAKAInfo_Type $_aKAInfo
      * @param string $_zodiac
      * @param string $_birthYear
-     * @param decimal $_ownershipPercentage
+     * @param float $_ownershipPercentage
      * @return MicrobiltCriminalReportStructPersonInfo_Type
      */
     public function __construct($_personName = NULL,$_contactInfo = NULL,$_tINInfo = NULL,$_birthDt = NULL,$_birthState = NULL,$_birthCountry = NULL,$_deathDt = NULL,$_driversLicense = NULL,$_mothersMaidenName = NULL,$_spouseInfo = NULL,$_employmentHistory = NULL,$_schoolInfo = NULL,$_physicalCharacteristics = NULL,$_citizenship = NULL,$_languageSpoken = NULL,$_message = NULL,$_quality = NULL,$_birthCity = NULL,$_nationality = NULL,$_affiliation = NULL,$_validationInfo = NULL,$_recordID = NULL,$_militaryIdInfo = NULL,$_passportInfo = NULL,$_childrenInfo = NULL,$_hometownArea = NULL,$_relationshipStatus = NULL,$_orientation = NULL,$_aKAInfo = NULL,$_zodiac = NULL,$_birthYear = NULL,$_ownershipPercentage = NULL)
@@ -369,7 +369,7 @@ class MicrobiltCriminalReportStructPersonInfo_Type extends MicrobiltCriminalRepo
     }
     /**
      * Get BirthDt value
-     * @return date|null
+     * @return string|null
      */
     public function getBirthDt()
     {
@@ -377,8 +377,8 @@ class MicrobiltCriminalReportStructPersonInfo_Type extends MicrobiltCriminalRepo
     }
     /**
      * Set BirthDt value
-     * @param date $_birthDt the BirthDt
-     * @return date
+     * @param string $_birthDt the BirthDt
+     * @return string
      */
     public function setBirthDt($_birthDt)
     {
@@ -420,7 +420,7 @@ class MicrobiltCriminalReportStructPersonInfo_Type extends MicrobiltCriminalRepo
     }
     /**
      * Get DeathDt value
-     * @return date|null
+     * @return string|null
      */
     public function getDeathDt()
     {
@@ -428,8 +428,8 @@ class MicrobiltCriminalReportStructPersonInfo_Type extends MicrobiltCriminalRepo
     }
     /**
      * Set DeathDt value
-     * @param date $_deathDt the DeathDt
-     * @return date
+     * @param string $_deathDt the DeathDt
+     * @return string
      */
     public function setDeathDt($_deathDt)
     {
@@ -845,7 +845,7 @@ class MicrobiltCriminalReportStructPersonInfo_Type extends MicrobiltCriminalRepo
     }
     /**
      * Get OwnershipPercentage value
-     * @return decimal|null
+     * @return float|null
      */
     public function getOwnershipPercentage()
     {
@@ -853,8 +853,8 @@ class MicrobiltCriminalReportStructPersonInfo_Type extends MicrobiltCriminalRepo
     }
     /**
      * Set OwnershipPercentage value
-     * @param decimal $_ownershipPercentage the OwnershipPercentage
-     * @return decimal
+     * @param float $_ownershipPercentage the OwnershipPercentage
+     * @return float
      */
     public function setOwnershipPercentage($_ownershipPercentage)
     {

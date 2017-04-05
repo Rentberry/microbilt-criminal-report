@@ -72,7 +72,7 @@ class MicrobiltCriminalReportStructGEOCode_Type extends MicrobiltCriminalReportS
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var decimal
+     * @var float
      */
     public $Latitude;
     /**
@@ -80,7 +80,7 @@ class MicrobiltCriminalReportStructGEOCode_Type extends MicrobiltCriminalReportS
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var decimal
+     * @var float
      */
     public $Longitude;
     /**
@@ -88,7 +88,7 @@ class MicrobiltCriminalReportStructGEOCode_Type extends MicrobiltCriminalReportS
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $GEOCreatedDt;
     /**
@@ -108,9 +108,9 @@ class MicrobiltCriminalReportStructGEOCode_Type extends MicrobiltCriminalReportS
      * @param string $_countyCode
      * @param string $_censusTrackCode
      * @param string $_blockCode
-     * @param decimal $_latitude
-     * @param decimal $_longitude
-     * @param date $_gEOCreatedDt
+     * @param float $_latitude
+     * @param float $_longitude
+     * @param string $_gEOCreatedDt
      * @param MicrobiltCriminalReportStructMessage_Type $_message
      * @return MicrobiltCriminalReportStructGEOCode_Type
      */
@@ -222,7 +222,7 @@ class MicrobiltCriminalReportStructGEOCode_Type extends MicrobiltCriminalReportS
     }
     /**
      * Get Latitude value
-     * @return decimal|null
+     * @return float|null
      */
     public function getLatitude()
     {
@@ -230,8 +230,8 @@ class MicrobiltCriminalReportStructGEOCode_Type extends MicrobiltCriminalReportS
     }
     /**
      * Set Latitude value
-     * @param decimal $_latitude the Latitude
-     * @return decimal
+     * @param float $_latitude the Latitude
+     * @return float
      */
     public function setLatitude($_latitude)
     {
@@ -239,7 +239,7 @@ class MicrobiltCriminalReportStructGEOCode_Type extends MicrobiltCriminalReportS
     }
     /**
      * Get Longitude value
-     * @return decimal|null
+     * @return float|null
      */
     public function getLongitude()
     {
@@ -247,8 +247,8 @@ class MicrobiltCriminalReportStructGEOCode_Type extends MicrobiltCriminalReportS
     }
     /**
      * Set Longitude value
-     * @param decimal $_longitude the Longitude
-     * @return decimal
+     * @param float $_longitude the Longitude
+     * @return float
      */
     public function setLongitude($_longitude)
     {
@@ -256,7 +256,7 @@ class MicrobiltCriminalReportStructGEOCode_Type extends MicrobiltCriminalReportS
     }
     /**
      * Get GEOCreatedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getGEOCreatedDt()
     {
@@ -264,8 +264,8 @@ class MicrobiltCriminalReportStructGEOCode_Type extends MicrobiltCriminalReportS
     }
     /**
      * Set GEOCreatedDt value
-     * @param date $_gEOCreatedDt the GEOCreatedDt
-     * @return date
+     * @param string $_gEOCreatedDt the GEOCreatedDt
+     * @return string
      */
     public function setGEOCreatedDt($_gEOCreatedDt)
     {

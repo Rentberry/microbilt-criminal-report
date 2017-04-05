@@ -72,7 +72,7 @@ class MicrobiltCriminalReportStructOrgInfo_Type extends MicrobiltCriminalReportS
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $EstablishDt;
     /**
@@ -80,7 +80,7 @@ class MicrobiltCriminalReportStructOrgInfo_Type extends MicrobiltCriminalReportS
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var long
+     * @var int
      */
     public $NumEmployees;
     /**
@@ -112,7 +112,7 @@ class MicrobiltCriminalReportStructOrgInfo_Type extends MicrobiltCriminalReportS
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $CorpStatusDt;
     /**
@@ -128,7 +128,7 @@ class MicrobiltCriminalReportStructOrgInfo_Type extends MicrobiltCriminalReportS
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $IncorporationDt;
     /**
@@ -176,7 +176,7 @@ class MicrobiltCriminalReportStructOrgInfo_Type extends MicrobiltCriminalReportS
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $OrigDtFiled;
     /**
@@ -184,7 +184,7 @@ class MicrobiltCriminalReportStructOrgInfo_Type extends MicrobiltCriminalReportS
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $RecentFilingDt;
     /**
@@ -308,21 +308,21 @@ class MicrobiltCriminalReportStructOrgInfo_Type extends MicrobiltCriminalReportS
      * @param MicrobiltCriminalReportStructContactInfo_Type $_contactInfo
      * @param string $_deptDivGrp
      * @param MicrobiltCriminalReportStructTINInfo_Type $_tINInfo
-     * @param date $_establishDt
-     * @param long $_numEmployees
+     * @param string $_establishDt
+     * @param int $_numEmployees
      * @param MicrobiltCriminalReportStructOrgId_Type $_orgId
      * @param MicrobiltCriminalReportStructCodeDescription_Type $_corpType
      * @param string $_corpStatus
-     * @param date $_corpStatusDt
+     * @param string $_corpStatusDt
      * @param MicrobiltCriminalReportStructMessage_Type $_message
-     * @param date $_incorporationDt
+     * @param string $_incorporationDt
      * @param MicrobiltCriminalReportStructCharterInfo_Type $_charterInfo
      * @param MicrobiltCriminalReportStructPersonInfo_Type $_agentInfo
      * @param string $_mergedName
      * @param string $_dBAName
      * @param string $_priorName
-     * @param date $_origDtFiled
-     * @param date $_recentFilingDt
+     * @param string $_origDtFiled
+     * @param string $_recentFilingDt
      * @param string $_busType
      * @param MicrobiltCriminalReportEnumBoolean $_activeStatusInd
      * @param string $_busStatusDesc
@@ -447,7 +447,7 @@ class MicrobiltCriminalReportStructOrgInfo_Type extends MicrobiltCriminalReportS
     }
     /**
      * Get EstablishDt value
-     * @return date|null
+     * @return string|null
      */
     public function getEstablishDt()
     {
@@ -455,8 +455,8 @@ class MicrobiltCriminalReportStructOrgInfo_Type extends MicrobiltCriminalReportS
     }
     /**
      * Set EstablishDt value
-     * @param date $_establishDt the EstablishDt
-     * @return date
+     * @param string $_establishDt the EstablishDt
+     * @return string
      */
     public function setEstablishDt($_establishDt)
     {
@@ -464,7 +464,7 @@ class MicrobiltCriminalReportStructOrgInfo_Type extends MicrobiltCriminalReportS
     }
     /**
      * Get NumEmployees value
-     * @return long|null
+     * @return int|null
      */
     public function getNumEmployees()
     {
@@ -472,8 +472,8 @@ class MicrobiltCriminalReportStructOrgInfo_Type extends MicrobiltCriminalReportS
     }
     /**
      * Set NumEmployees value
-     * @param long $_numEmployees the NumEmployees
-     * @return long
+     * @param int $_numEmployees the NumEmployees
+     * @return int
      */
     public function setNumEmployees($_numEmployees)
     {
@@ -532,7 +532,7 @@ class MicrobiltCriminalReportStructOrgInfo_Type extends MicrobiltCriminalReportS
     }
     /**
      * Get CorpStatusDt value
-     * @return date|null
+     * @return string|null
      */
     public function getCorpStatusDt()
     {
@@ -540,8 +540,8 @@ class MicrobiltCriminalReportStructOrgInfo_Type extends MicrobiltCriminalReportS
     }
     /**
      * Set CorpStatusDt value
-     * @param date $_corpStatusDt the CorpStatusDt
-     * @return date
+     * @param string $_corpStatusDt the CorpStatusDt
+     * @return string
      */
     public function setCorpStatusDt($_corpStatusDt)
     {
@@ -566,7 +566,7 @@ class MicrobiltCriminalReportStructOrgInfo_Type extends MicrobiltCriminalReportS
     }
     /**
      * Get IncorporationDt value
-     * @return date|null
+     * @return string|null
      */
     public function getIncorporationDt()
     {
@@ -574,8 +574,8 @@ class MicrobiltCriminalReportStructOrgInfo_Type extends MicrobiltCriminalReportS
     }
     /**
      * Set IncorporationDt value
-     * @param date $_incorporationDt the IncorporationDt
-     * @return date
+     * @param string $_incorporationDt the IncorporationDt
+     * @return string
      */
     public function setIncorporationDt($_incorporationDt)
     {
@@ -668,7 +668,7 @@ class MicrobiltCriminalReportStructOrgInfo_Type extends MicrobiltCriminalReportS
     }
     /**
      * Get OrigDtFiled value
-     * @return date|null
+     * @return string|null
      */
     public function getOrigDtFiled()
     {
@@ -676,8 +676,8 @@ class MicrobiltCriminalReportStructOrgInfo_Type extends MicrobiltCriminalReportS
     }
     /**
      * Set OrigDtFiled value
-     * @param date $_origDtFiled the OrigDtFiled
-     * @return date
+     * @param string $_origDtFiled the OrigDtFiled
+     * @return string
      */
     public function setOrigDtFiled($_origDtFiled)
     {
@@ -685,7 +685,7 @@ class MicrobiltCriminalReportStructOrgInfo_Type extends MicrobiltCriminalReportS
     }
     /**
      * Get RecentFilingDt value
-     * @return date|null
+     * @return string|null
      */
     public function getRecentFilingDt()
     {
@@ -693,8 +693,8 @@ class MicrobiltCriminalReportStructOrgInfo_Type extends MicrobiltCriminalReportS
     }
     /**
      * Set RecentFilingDt value
-     * @param date $_recentFilingDt the RecentFilingDt
-     * @return date
+     * @param string $_recentFilingDt the RecentFilingDt
+     * @return string
      */
     public function setRecentFilingDt($_recentFilingDt)
     {

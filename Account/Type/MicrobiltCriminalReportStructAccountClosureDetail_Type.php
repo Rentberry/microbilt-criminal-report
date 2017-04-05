@@ -40,7 +40,7 @@ class MicrobiltCriminalReportStructAccountClosureDetail_Type extends MicrobiltCr
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $ClosedDt;
     /**
@@ -88,7 +88,7 @@ class MicrobiltCriminalReportStructAccountClosureDetail_Type extends MicrobiltCr
      * Meta informations extracted from the WSDL
      * - maxOccurs : 1
      * - minOccurs : 0
-     * @var date
+     * @var string
      */
     public $PaidDt;
     /**
@@ -104,13 +104,13 @@ class MicrobiltCriminalReportStructAccountClosureDetail_Type extends MicrobiltCr
      * @see parent::__construct()
      * @param string $_aBANum
      * @param string $_accountNum
-     * @param date $_closedDt
+     * @param string $_closedDt
      * @param string $_reasonCode
      * @param string $_institutionName
      * @param string $_stateProv
      * @param string $_postalCode
      * @param MicrobiltCriminalReportStructCurrencyAmount $_closureAmt
-     * @param date $_paidDt
+     * @param string $_paidDt
      * @param MicrobiltCriminalReportStructConsumerStatement_Type $_consumerDispute
      * @return MicrobiltCriminalReportStructAccountClosureDetail_Type
      */
@@ -154,7 +154,7 @@ class MicrobiltCriminalReportStructAccountClosureDetail_Type extends MicrobiltCr
     }
     /**
      * Get ClosedDt value
-     * @return date|null
+     * @return string|null
      */
     public function getClosedDt()
     {
@@ -162,8 +162,8 @@ class MicrobiltCriminalReportStructAccountClosureDetail_Type extends MicrobiltCr
     }
     /**
      * Set ClosedDt value
-     * @param date $_closedDt the ClosedDt
-     * @return date
+     * @param string $_closedDt the ClosedDt
+     * @return string
      */
     public function setClosedDt($_closedDt)
     {
@@ -256,7 +256,7 @@ class MicrobiltCriminalReportStructAccountClosureDetail_Type extends MicrobiltCr
     }
     /**
      * Get PaidDt value
-     * @return date|null
+     * @return string|null
      */
     public function getPaidDt()
     {
@@ -264,8 +264,8 @@ class MicrobiltCriminalReportStructAccountClosureDetail_Type extends MicrobiltCr
     }
     /**
      * Set PaidDt value
-     * @param date $_paidDt the PaidDt
-     * @return date
+     * @param string $_paidDt the PaidDt
+     * @return string
      */
     public function setPaidDt($_paidDt)
     {
