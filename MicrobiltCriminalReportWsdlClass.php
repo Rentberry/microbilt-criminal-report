@@ -218,7 +218,7 @@ class MicrobiltCriminalReportWsdlClass extends stdClass implements ArrayAccess,I
      * @param string $_className optional (used by inherited classes in order to always call this method)
      * @return MicrobiltCriminalReportWsdlClass|null
      */
-    public static function __set_state(array $_array,$_className = __CLASS__)
+    public static function magick_set_state(array $_array,$_className = __CLASS__)
     {
         if(class_exists($_className))
         {
