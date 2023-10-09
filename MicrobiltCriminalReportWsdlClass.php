@@ -20,79 +20,79 @@ class MicrobiltCriminalReportWsdlClass extends stdClass implements ArrayAccess,I
      * Option key to define WSDL url
      * @var string
      */
-    const WSDL_URL = 'wsdl_url';
+    public const WSDL_URL = 'wsdl_url';
     /**
      * Constant to define the default WSDL URI
      * @var string
      */
-    const VALUE_WSDL_URL = 'https://creditserver.microbilt.com/WebServices/Seisint/LNNationalComprehensiveCriminalReport.svc?wsdl';
+    public const VALUE_WSDL_URL = 'https://creditserver.microbilt.com/WebServices/Seisint/LNNationalComprehensiveCriminalReport.svc?wsdl';
     /**
      * Option key to define WSDL login
      * @var string
      */
-    const WSDL_LOGIN = 'wsdl_login';
+    public const WSDL_LOGIN = 'wsdl_login';
     /**
      * Option key to define WSDL password
      * @deprecated use WSDL_PASSWORD instead
      * @var string
      */
-    const WSDL_PASSWD = 'wsdl_password';
+    public const WSDL_PASSWD = 'wsdl_password';
     /**
      * Option key to define WSDL password
      * @var string
      */
-    const WSDL_PASSWORD = 'wsdl_password';
+    public const WSDL_PASSWORD = 'wsdl_password';
     /**
      * Option key to define WSDL trace option
      * @var string
      */
-    const WSDL_TRACE = 'wsdl_trace';
+    public const WSDL_TRACE = 'wsdl_trace';
     /**
      * Option key to define WSDL exceptions
      * @deprecated use WSDL_EXCEPTIONS instead
      * @var string
      */
-    const WSDL_EXCPTS = 'wsdl_exceptions';
+    public const WSDL_EXCPTS = 'wsdl_exceptions';
     /**
      * Option key to define WSDL exceptions
      * @var string
      */
-    const WSDL_EXCEPTIONS = 'wsdl_exceptions';
+    public const WSDL_EXCEPTIONS = 'wsdl_exceptions';
     /**
      * Option key to define WSDL cache_wsdl
      * @var string
      */
-    const WSDL_CACHE_WSDL = 'wsdl_cache_wsdl';
+    public const WSDL_CACHE_WSDL = 'wsdl_cache_wsdl';
     /**
      * Option key to define WSDL stream_context
      * @var string
      */
-    const WSDL_STREAM_CONTEXT = 'wsdl_stream_context';
+    public const WSDL_STREAM_CONTEXT = 'wsdl_stream_context';
     /**
      * Option key to define WSDL soap_version
      * @var string
      */
-    const WSDL_SOAP_VERSION = 'wsdl_soap_version';
+    public const WSDL_SOAP_VERSION = 'wsdl_soap_version';
     /**
      * Option key to define WSDL compression
      * @var string
      */
-    const WSDL_COMPRESSION = 'wsdl_compression';
+    public const WSDL_COMPRESSION = 'wsdl_compression';
     /**
      * Option key to define WSDL encoding
      * @var string
      */
-    const WSDL_ENCODING = 'wsdl_encoding';
+    public const WSDL_ENCODING = 'wsdl_encoding';
     /**
      * Option key to define WSDL connection_timeout
      * @var string
      */
-    const WSDL_CONNECTION_TIMEOUT = 'wsdl_connection_timeout';
+    public const WSDL_CONNECTION_TIMEOUT = 'wsdl_connection_timeout';
     /**
      * Option key to define WSDL typemap
      * @var string
      */
-    const WSDL_TYPEMAP = 'wsdl_typemap';
+    public const WSDL_TYPEMAP = 'wsdl_typemap';
     /**
      * Option key to define WSDL user_agent
      * @var string
@@ -102,52 +102,52 @@ class MicrobiltCriminalReportWsdlClass extends stdClass implements ArrayAccess,I
      * Option key to define WSDL features
      * @var string
      */
-    const WSDL_FEATURES = 'wsdl_features';
+    public const WSDL_FEATURES = 'wsdl_features';
     /**
      * Option key to define WSDL keep_alive
      * @var string
      */
-    const WSDL_KEEP_ALIVE = 'wsdl_keep_alive';
+    public const WSDL_KEEP_ALIVE = 'wsdl_keep_alive';
     /**
      * Option key to define WSDL proxy_host
      * @var string
      */
-    const WSDL_PROXY_HOST = 'wsdl_proxy_host';
+    public const WSDL_PROXY_HOST = 'wsdl_proxy_host';
     /**
      * Option key to define WSDL proxy_port
      * @var string
      */
-    const WSDL_PROXY_PORT = 'wsdl_proxy_port';
+    public const WSDL_PROXY_PORT = 'wsdl_proxy_port';
     /**
      * Option key to define WSDL proxy_login
      * @var string
      */
-    const WSDL_PROXY_LOGIN = 'wsdl_proxy_login';
+    public const WSDL_PROXY_LOGIN = 'wsdl_proxy_login';
     /**
      * Option key to define WSDL proxy_password
      * @var string
      */
-    const WSDL_PROXY_PASSWORD = 'wsdl_proxy_password';
+    public const WSDL_PROXY_PASSWORD = 'wsdl_proxy_password';
     /**
      * Option key to define WSDL local_cert
      * @var string
      */
-    const WSDL_LOCAL_CERT = 'wsdl_local_cert';
+    public const WSDL_LOCAL_CERT = 'wsdl_local_cert';
     /**
      * Option key to define WSDL passphrase
      * @var string
      */
-    const WSDL_PASSPHRASE = 'wsdl_passphrase';
+    public const WSDL_PASSPHRASE = 'wsdl_passphrase';
     /**
      * Option key to define WSDL authentication
      * @var string
      */
-    const WSDL_AUTHENTICATION = 'wsdl_authentication';
+    public const WSDL_AUTHENTICATION = 'wsdl_authentication';
     /**
      * Option key to define WSDL ssl_method
      * @var string
      */
-    const WSDL_SSL_METHOD = 'wsdl_ssl_method';
+    public const WSDL_SSL_METHOD = 'wsdl_ssl_method';
     /**
      * Soapclient called to communicate with the actual SOAP Service
      * @var SoapClient
@@ -594,7 +594,7 @@ class MicrobiltCriminalReportWsdlClass extends stdClass implements ArrayAccess,I
      * @uses MicrobiltCriminalReportWsdlClass::getInternArrayToIterateIsArray()
      * @return int
      */
-    public function count()
+    #[ReturnTypeWillChange] public function count()
     {
         return $this->getInternArrayToIterateIsArray()?count($this->getInternArrayToIterate()):-1;
     }
@@ -603,7 +603,7 @@ class MicrobiltCriminalReportWsdlClass extends stdClass implements ArrayAccess,I
      * @uses MicrobiltCriminalReportWsdlClass::offsetGet()
      * @return mixed
      */
-    public function current()
+    #[ReturnTypeWillChange] public function current()
     {
         return $this->offsetGet($this->internArrayToIterateOffset);
     }
@@ -613,7 +613,7 @@ class MicrobiltCriminalReportWsdlClass extends stdClass implements ArrayAccess,I
      * @uses MicrobiltCriminalReportWsdlClass::setInternArrayToIterateOffset()
      * @return int
      */
-    public function next()
+    #[ReturnTypeWillChange] public function next()
     {
         return $this->setInternArrayToIterateOffset($this->getInternArrayToIterateOffset() + 1);
     }
@@ -622,7 +622,7 @@ class MicrobiltCriminalReportWsdlClass extends stdClass implements ArrayAccess,I
      * @uses MicrobiltCriminalReportWsdlClass::setInternArrayToIterateOffset()
      * @return int
      */
-    public function rewind()
+    #[ReturnTypeWillChange] public function rewind()
     {
         return $this->setInternArrayToIterateOffset(0);
     }
@@ -632,7 +632,7 @@ class MicrobiltCriminalReportWsdlClass extends stdClass implements ArrayAccess,I
      * @uses MicrobiltCriminalReportWsdlClass::offsetExists()
      * @return bool true|false
      */
-    public function valid()
+    #[ReturnTypeWillChange] public function valid()
     {
         return $this->offsetExists($this->getInternArrayToIterateOffset());
     }
@@ -641,7 +641,7 @@ class MicrobiltCriminalReportWsdlClass extends stdClass implements ArrayAccess,I
      * @uses MicrobiltCriminalReportWsdlClass::getInternArrayToIterateOffset()
      * @return int
      */
-    public function key()
+    #[ReturnTypeWillChange] public function key()
     {
         return $this->getInternArrayToIterateOffset();
     }
@@ -730,7 +730,7 @@ class MicrobiltCriminalReportWsdlClass extends stdClass implements ArrayAccess,I
      * @param int $_offset
      * @return bool true|false
      */
-    public function offsetExists($_offset)
+    #[ReturnTypeWillChange] public function offsetExists($_offset)
     {
         return ($this->getInternArrayToIterateIsArray() && array_key_exists($_offset,$this->getInternArrayToIterate()));
     }
@@ -740,7 +740,7 @@ class MicrobiltCriminalReportWsdlClass extends stdClass implements ArrayAccess,I
      * @param int $_offset
      * @return mixed
      */
-    public function offsetGet($_offset)
+    #[ReturnTypeWillChange] public function offsetGet($_offset)
     {
         return $this->offsetExists($_offset)?$this->internArrayToIterate[$_offset]:null;
     }
@@ -750,7 +750,7 @@ class MicrobiltCriminalReportWsdlClass extends stdClass implements ArrayAccess,I
      * @param mixed $_value
      * @return null
      */
-    public function offsetSet($_offset,$_value)
+    #[ReturnTypeWillChange] public function offsetSet($_offset, $_value)
     {
         return null;
     }
@@ -759,7 +759,7 @@ class MicrobiltCriminalReportWsdlClass extends stdClass implements ArrayAccess,I
      * @param mixed $_offset
      * @return null
      */
-    public function offsetUnset($_offset)
+    #[ReturnTypeWillChange] public function offsetUnset($_offset)
     {
         return null;
     }
