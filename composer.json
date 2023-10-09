@@ -1,8 +1,8 @@
 {
-    "name": "bukashk0zzz/microbilt-criminal-report",
+    "name": "rentberry/microbilt-criminal-report",
     "description": "Microbilt сriminal report WSDL to php classes.",
     "keywords": ["microbilt", "wsdl", "сriminal"],
-    "homepage": "https://github.com/bukashk0zzz/MicrobiltCriminalReport",
+    "homepage": "https://github.com/rentberry/microbilt-criminal-report",
     "license": "MIT",
     "authors": [
         {
@@ -13,7 +13,7 @@
     ],
     "support": {
         "email": "bukashk0zzz@gmail.com",
-        "issues": "https://github.com/bukashk0zzz/MicrobiltCriminalReport/issues"
+        "issues": "https://github.com/brentberry/microbilt-criminal-report"
     },
     "require": {
         "php": ">=8.2.0"
